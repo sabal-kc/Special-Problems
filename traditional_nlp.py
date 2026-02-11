@@ -202,7 +202,7 @@ if "topic" in tasks:
             "id": i + 1, "text": text,
             "actual": actual, "predicted": predicted, "correct": correct,
         })
-        print(f"  {i+1:>4}. [{'Y' if correct else 'X'}] Predicted={predicted:<10} Actual={actual:<10} | {text[:50]}")
+        # print(f"  {i+1:>4}. [{'Y' if correct else 'X'}] Predicted={predicted:<10} Actual={actual:<10} | {text[:50]}")
     print(f"\n  Accuracy: {n_correct}/{len(topic_results)} ({100*n_correct/len(topic_results):.1f}%)")
     save_csv(
         "results/topic_traditional.csv",

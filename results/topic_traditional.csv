@@ -1,4 +1,4 @@
-id,text,actual,topic,correct
+id,text,actual,predicted,correct
 1,"Gas prices up 5 cents after Hurricane Ivan CAMARILLO, Calif. - Gas prices jumped more than 5 cents a gallon in the past two weeks, largely because of supply problems related to Hurricane Ivan, an industry analyst said.",Sci/Tech,Business,False
 2,"With a Rookie Quarterback in the N.F.L., Call It in the Air Debuts are rarely pretty, especially for rookies such as Giants quarterback Eli Manning, who will make his first start Sunday.",Sports,Sports,True
 3,Hynix's 3Q Profit More Than Triples (AP) AP - South Korea's Hynix Semiconductor Inc. said Monday its third-quarter net profit more than tripled from same period last year thanks to steady global prices for memory chips.,World,Business,False
