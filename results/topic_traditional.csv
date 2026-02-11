@@ -1,0 +1,21 @@
+id,text,topic_id,keywords,confidence
+1,The stock market reached an all-time high today with major gains in tech stocks.,1,"new, tech, stocks, major, reached",0.9316
+2,The new smartphone features a 108MP camera and 5G connectivity.,0,"new, 108mp, smartphone, connectivity, camera",0.9048
+3,The football team won the championship after a thrilling final match.,3,"won, world, latest, ram, m3",0.9059
+4,Scientists published a breakthrough study on climate change effects.,3,"won, world, latest, ram, m3",0.9058
+5,The central bank raised interest rates to combat inflation.,1,"new, tech, stocks, major, reached",0.8927
+6,A new artificial intelligence model can generate realistic images.,1,"new, tech, stocks, major, reached",0.9051
+7,The basketball player scored 50 points in last night's game.,2,"new, player, ocean, study, night",0.9059
+8,Researchers found a potential new treatment for Alzheimer's disease.,2,"new, player, ocean, study, night",0.8924
+9,The government announced new economic stimulus measures.,2,"new, player, ocean, study, night",0.8924
+10,The latest laptop comes with a powerful M3 chip and 24GB RAM.,3,"won, world, latest, ram, m3",0.9166
+11,The tennis player won her fifth Grand Slam title.,1,"new, tech, stocks, major, reached",0.9055
+12,A new study reveals the impact of microplastics on ocean ecosystems.,2,"new, player, ocean, study, night",0.9054
+13,Cryptocurrency prices surged after new regulatory clarity.,3,"won, world, latest, ram, m3",0.8887
+14,Virtual reality headsets are becoming more affordable for consumers.,0,"new, 108mp, smartphone, connectivity, camera",0.8749
+15,The soccer World Cup drew millions of viewers worldwide.,3,"won, world, latest, ram, m3",0.9058
+16,Marine biologists discovered a new coral reef in the Pacific Ocean.,1,"new, tech, stocks, major, reached",0.9154
+17,The tech company reported record quarterly earnings.,3,"won, world, latest, ram, m3",0.8924
+18,Wearable health devices can now monitor blood glucose levels.,1,"new, tech, stocks, major, reached",0.9061
+19,The Olympic games featured several new world records.,2,"new, player, ocean, study, night",0.892
+20,Astronomers detected a potentially habitable exoplanet.,2,"new, player, ocean, study, night",0.8748

@@ -1,0 +1,1001 @@
+id,entities
+1,Medicaid (MISC)
+2,BUDAPEST (LOC)
+3,England (LOC)
+4,Majoli (PER); Anke Huber (PER); Magdalena Maleeva (PER)
+5,DBRS (ORG); Power Corp (ORG); Power Financial (ORG)
+6,Sigeki Maruyama (PER); Japan (LOC)
+7,NONE
+8,ULIMO-J (ORG)
+9,NONE
+10,Australia (LOC); China (LOC)
+11,NONE
+12,NONE
+13,America Online (ORG); NBA (ORG); NBA (ORG)
+14,D. Fulton (PER); N. Llong (PER); M. Walker (PER)
+15,Premier league (MISC)
+16,Meluawati (PER); Indonesia (LOC); Chan Chia Fong (PER); Malaysia (LOC)
+17,Vaduz (LOC); Vaduz (ORG); Liechtenstein (LOC); RAF Riga (ORG); Latvia (LOC)
+18,NONE
+19,National Basketball Association (ORG); America Online Inc (ORG); United States (LOC); Wall Street Journal (ORG)
+20,Pakistan (LOC)
+21,Australian (MISC); Maureen Carey (PER); Italian (MISC); Raniero Iacomella (PER)
+22,Baxter International Inc (ORG); Austria (LOC); Immuno International AG (ORG)
+23,Samson Kitur (PER); Kenya (LOC)
+24,Gore (PER); Wisconsin (LOC)
+25,NONE
+26,NONE
+27,NONE
+28,BEIJING (LOC)
+29,DUBAI (LOC)
+30,North Afghan (MISC)
+31,NONE
+32,Dallas (LOC)
+33,NONE
+34,FTC (ORG)
+35,David Harding (PER); ARC (ORG); Hanson (ORG)
+36,Arch Petroleum Inc (ORG); Alberta (LOC); Morinville (LOC)
+37,Yankees (ORG); AL East (MISC); Baltimore (ORG)
+38,Iliescu (PER)
+39,South African (MISC); Boland (ORG); Leicestershire (ORG); David Millns (PER)
+40,Tekstilshchik Kamyshin (ORG)
+41,Schalke 04 (ORG)
+42,Hansa Rostock (ORG); Cologne (ORG); Rhineside (LOC); Sean Dundee (PER); Karlsruhe (ORG); St Pauli (ORG)
+43,MILWAUKEE (ORG); CLEVELAND (ORG)
+44,Metro (ORG)
+45,Moada (PER); Arab (MISC); MDS (ORG); Mustapha Ben Jaafar (PER)
+46,Veracruz (ORG)
+47,United States (LOC)
+48,NONE
+49,God (PER)
+50,Hamburg (ORG)
+51,DETROIT (ORG)
+52,CALIFORNIA (ORG); BALTIMORE (ORG)
+53,Goschen (PER)
+54,Ulsan (ORG)
+55,NONE
+56,Keane Inc (ORG); Life Insurance Co of Georgia (ORG); Southland Life Insurance Co (ORG); Netherlands (LOC); ING Group (ORG)
+57,Sao Paulo (ORG)
+58,Israeli (MISC)
+59,COMEX (ORG)
+60,Berkshire Wood Elves (ORG)
+61,Noranda aluminum (ORG); U.S. (LOC); Midwest (LOC)
+62,yen (MISC)
+63,NONE
+64,NONE
+65,Thomas Enqvist (PER); Sweden (LOC); Petr Korda (PER); Czech Republic (LOC)
+66,Wisla Krakow (ORG)
+67,NONE
+68,Haas (PER); Grandstand (LOC)
+69,NONE
+70,NONE
+71,Paul Haarhuis (PER); Netherlands (LOC); Michael Joyce (PER); U.S (LOC)
+72,Wolverhampton (ORG)
+73,Hawthorn (ORG)
+74,Fortuna Sittard (ORG); Heerenveen (ORG)
+75,Carlton (ORG); Footscray (ORG)
+76,NONE
+77,Jon Preston (PER)
+78,Guivarc'h (PER)
+79,MORAV.CHEMIC. ZAV (ORG)
+80,Stefan Edberg (PER); Wimbledon (MISC); Richard Krajicek (PER); U.S. Open (MISC)
+81,NONE
+82,Paul Gascoigne (PER); Les Ferdinand (PER); David Batty (PER); England (LOC)
+83,Europe (LOC); Naish (PER)
+84,Palmeiras (ORG)
+85,U.S. Food and Drug Administration (ORG); Orphan Drug law (MISC); Biogen (ORG); Avonex (MISC)
+86,Independence Day (MISC); News Corp (ORG)
+87,Guadalajara (ORG); America (ORG)
+88,Dimitris Kontogiannis (PER); Athens Newsroom (ORG)
+89,Pinas (PER); Jungle Command (ORG); Brunswijk (PER); Pinas (PER)
+90,Wall Street (LOC); Robert Rubin (PER); Treasury (ORG); Clinton (PER)
+91,Dimitris Kontogiannis (PER); Athens Newsroom (ORG)
+92,NONE
+93,Shanghai-Ek Chor (ORG); Shanghai Automobile Corporation (ORG); Ek Chor China Motorcycle (ORG)
+94,NONE
+95,MOODY (ORG)
+96,Matahari (ORG)
+97,NONE
+98,TORONTO (LOC)
+99,PSG (ORG); David Ginola (PER); English (MISC); Newcastle (ORG); Scotland (LOC)
+100,American League (MISC)
+101,CALIFORNIA (ORG)
+102,MaliVai Washington (PER); U.S. (LOC); Karim Alami (PER); Morocco (LOC)
+103,S. African (MISC)
+104,NONE
+105,Roger Grimwade (PER); Cyprus (LOC)
+106,Wilson (PER)
+107,NONE
+108,SPA-FRANCORCHAMPS (LOC); Belgium (LOC)
+109,Russian (MISC); Chechen (MISC); Grozny (LOC); Russia (LOC); Interfax (ORG)
+110,GDP (MISC)
+111,Toure (PER)
+112,WESTERN DIVISION (MISC)
+113,Admira (ORG); Wacker (ORG)
+114,SEOUL (LOC)
+115,NONE
+116,French (MISC); Marcel Desailly (PER); Argentine (MISC); Boca Juniors (ORG); Fiorentina (ORG); Milan (ORG); Oscar Tabarez (PER); Batistuta (PER)
+117,Ivan Odnosum (PER)
+118,BONN (LOC)
+119,Egypt (LOC); Morocco (LOC); S. Korea (LOC); Yemen (LOC); Pakistan (LOC); Mexico (LOC); China (LOC)
+120,ISS Inc (ORG); Aaxis (ORG)
+121,NONE
+122,Israeli (MISC); Arafat (PER)
+123,NONE
+124,Lecce (ORG); Genoa (ORG)
+125,NONE
+126,POLAND (LOC); CYPRUS (LOC)
+127,South Sydney (ORG)
+128,Wayne Ferreira (PER); South Africa (LOC); Marcelo Rios (PER); Chile (LOC); MaliVai Washington (PER); United States (LOC); American (MISC); Todd Martin (PER)
+129,Pakistan (LOC)
+130,Dutch (MISC); Koninklijke PTT Nederland NV (ORG); Dutch PTT (ORG)
+131,U.S. OPEN (MISC)
+132,Toluca (ORG)
+133,Auckland (ORG)
+134,Promodes (ORG)
+135,HONG KONG (LOC)
+136,Yankees (ORG); Paul O'Neill (PER); Seattle (ORG); John Marzano (PER); O'Neill (PER)
+137,In Home Health (ORG)
+138,NONE
+139,Netanyahu (PER)
+140,Scott McGrory (PER); Stephen Pate (PER); Australia (LOC)
+141,NONE
+142,NATO (ORG); Serbs (MISC); Serb (MISC); U.N. (ORG); Zvornik (LOC); Mahala (LOC)
+143,1860 Munich (ORG); Schwabl (PER); Borussia Dortmund (ORG); Zorc (PER)
+144,Jan Buettner (PER); AOL Germany (ORG); AdOn (ORG); Europe (LOC)
+145,NONE
+146,Cleveland (ORG)
+147,England (LOC); Will Carling (PER); Jeremy Guscott (PER); Rory Underwood (PER); Dean Richards (PER); England (LOC)
+148,Russian (MISC); Chechnya (LOC); Russian (MISC); Alexander Lebed (PER)
+149,Guernsey (LOC); Britain (LOC); Channel Islands (LOC)
+150,BRUSSELS (LOC)
+151,PULPEX (ORG); London (LOC); OM (ORG)
+152,VODNI STAVBY PRAHA (ORG)
+153,Serbia (LOC); Kosovo (LOC); Serbian (MISC)
+154,NONE
+155,NONE
+156,Cambridge (ORG)
+157,Turkish (MISC); Turkey (LOC); Baghdad (LOC)
+158,Tendulkar (PER); Kapoor (PER); Jadeja (PER)
+159,Newbury (LOC); ARC (ORG); Harding (PER)
+160,NONE
+161,NONE
+162,KIRKLAND (LOC); Wash (LOC)
+163,NONE
+164,Iran (LOC); United Nations (ORG); Majid Takht Ravanchi (PER); U.N. (ORG); Boutros Boutros-Ghali (PER)
+165,Mohib Textile Mills (ORG); Islamic (MISC)
+166,J. Srinath (PER)
+167,SPA-FRANCORCHAMPS (LOC); Belgium (LOC)
+168,Boston (ORG); CALIFORNIA (ORG)
+169,Ferrari (ORG)
+170,Divisional Playoff Series (MISC); Mariners (ORG); Yankees (ORG); Kingdome (LOC)
+171,Aberdeen (LOC)
+172,USTA (ORG)
+173,OAKLAND (ORG)
+174,Kurdistan Workers Party (ORG); PKK (ORG); Erzincan (LOC); Sivas (LOC)
+175,Mark Trevelyan (PER)
+176,SBF-120 (MISC)
+177,NONE
+178,Australian Open (MISC); Anke Huber (PER); Germany (LOC); South African (MISC); Amanda Coetzer (PER)
+179,OB (ORG); Lotte (ORG)
+180,NONE
+181,NONE
+182,State Department (ORG); Cuban (MISC); Washington (LOC); Cubans (MISC)
+183,NONE
+184,Montgomerie (PER)
+185,Sayed Salahuddin (PER)
+186,Martinez (PER); Tauziat (PER)
+187,St Louis (LOC); Gary Sheffield (PER); Devon White (PER); Mark Hutton (PER); Florida Marlins (ORG); St. Louis Cardinals (ORG)
+188,Wasim (PER)
+189,NONE
+190,NONE
+191,Roberto Carretero (PER); Spain (LOC); Jordi Burillo (PER); Spain (LOC)
+192,PUNR (ORG)
+193,Poland (LOC); Cyprus (LOC)
+194,NONE
+195,NONE
+196,NONE
+197,Scottish (MISC)
+198,KANSAS CITY (ORG); Texas (ORG)
+199,NONE
+200,NONE
+201,Saeed Anwar (PER); Croft (PER); Cork (PER)
+202,SCOTTISH THIRD DIVISION (MISC)
+203,South Sydney (ORG)
+204,Vietnamese (MISC); Alaska (LOC)
+205,Atlante (ORG)
+206,Rad (ORG); Buducnost (ORG); P (LOC)
+207,Elect Res (ORG)
+208,NONE
+209,Jiri Novak (PER); Czech Republic (LOC)
+210,snap (MISC)
+211,RIA (ORG); Russian-Chechen (MISC); Grozny (LOC)
+212,WARSAW (LOC)
+213,Lebed (PER); Russia (LOC); Moscow (LOC); Chechnya (LOC)
+214,MALAYSIAN OPEN BADMINTON (MISC)
+215,Ajax Amsterdam (ORG); Frank de Boer (PER); AZ Alkmaar (ORG)
+216,Shinichi Itoh (PER); Japan (LOC); Honda (ORG)
+217,NONE
+218,CHICAGO (LOC)
+219,Ken Caminiti (PER); Padres (ORG); Los Angeles Dodgers (ORG); National League West (MISC)
+220,Chechens (MISC)
+221,German (MISC)
+222,Tamil Tiger (ORG); Sri Lanka (LOC)
+223,NONE
+224,ENGLAND (LOC); PAKISTAN (LOC)
+225,Serb (MISC); Bosnia (LOC); Serb (MISC)
+226,NONE
+227,Scottish (MISC); Ayr (ORG); Berwick (ORG); Clyde (ORG); Queen of the (ORG)
+228,Lotte (ORG); Hyundai (ORG)
+229,Arminia Bielefeld (ORG); Duisburg (ORG)
+230,NONE
+231,Jim Courier (PER); U.S. (LOC); Javier Sanchez (PER); Spain (LOC)
+232,NONE
+233,Soviet (MISC)
+234,Currin (PER)
+235,NONE
+236,NONE
+237,BELCHATOW (LOC); Poland (LOC)
+238,NONE
+239,NONE
+240,FOWLER (PER); MCMANAMAN (PER); ENGLAND (LOC)
+241,Britain (LOC)
+242,Konpolis (ORG); Mideast (LOC); Indonesia (LOC); KPC (ORG)
+243,Severin Konan Kouame (PER); Joseph Tanny (PER); National Security Council (ORG)
+244,Damien Lynch (PER); Dublin Newsroom (ORG)
+245,BONN (LOC)
+246,Auxerre (ORG); Marseille (ORG)
+247,LOS ANGELES (ORG)
+248,Chris Boardman (PER); Britain (LOC); Andrea Collinelli (PER); Italy (LOC)
+249,NONE
+250,EPA (ORG)
+251,Watts (PER)
+252,Paul Malin (PER); Britain (LOC); Yamaha (ORG)
+253,Frank Nobilo (PER); New Zealand (LOC)
+254,Lupu (PER)
+255,NONE
+256,Katarina Studenikova (PER); Slovakia (LOC); Karina Habsudova (PER)
+257,RIO DE JANEIRO (LOC)
+258,Springboks (ORG); All Blacks (ORG)
+259,Major League Baseball (MISC)
+260,Hyundai (ORG)
+261,Van (LOC); Sirnak (LOC); Hakkari (LOC)
+262,Kandahar (LOC); Taleban (ORG)
+263,New Zealand (LOC); Sri Lanka (LOC); Pakistan (LOC); Sharjah (LOC)
+264,Grozny (LOC); Shkirko (PER); Interfax (ORG); Chechens (MISC)
+265,NONE
+266,Tommy Thompson (PER)
+267,PUK (ORG); United Nations (ORG); Iraqi (MISC)
+268,NONE
+269,NONE
+270,Mladost (ORG); L (LOC); Zemun (ORG)
+271,Akron (LOC); Ohio (LOC)
+272,Jordan (ORG)
+273,Dm (MISC)
+274,Jos Verstappen (PER); Netherland (LOC); Arrows (ORG)
+275,Malaysia (LOC)
+276,England (LOC); John Crawley (PER); Pakistan (LOC)
+277,NONE
+278,Nick Nieland (PER); Britain (LOC)
+279,SV Salzburg (ORG)
+280,Saskatchewan Wheat Pool (ORG)
+281,Sheffield United (ORG)
+282,Clydebank (ORG); Stirling (ORG)
+283,Arafat (PER); Israeli (MISC); Shimon Peres (PER); West Bank (LOC); Ramallah (LOC); Gaza (LOC); Israel (LOC); Palestinian (MISC)
+284,Rousse (LOC); Veliko Tarnovo (LOC)
+285,Tel Aviv (LOC); Sameh Haj Yihye (PER)
+286,Wigan (ORG)
+287,NONE
+288,Viktoria Zizkov (ORG)
+289,Athens Metro (MISC)
+290,Dutroux (PER)
+291,Bekescsaba (ORG); BVSC (ORG)
+292,Thai (MISC); Banharn Silpa-archa (PER)
+293,Fortuna Sittard (ORG)
+294,Stenning (PER)
+295,Weinstein (PER); Julie Lejeune (PER); Melissa Russo (PER); Detroux (PER)
+296,Islamic Museum (ORG); Cairo (LOC)
+297,NONE
+298,U.S. Treasury (ORG)
+299,Colorado (LOC); Gale Norton (PER)
+300,FRENCH LEAGUE (MISC)
+301,ANKARA (LOC)
+302,NONE
+303,NONE
+304,Virgilius Alekna (PER); Lithuania (LOC)
+305,Buenos Aires (LOC)
+306,NICE (ORG); EMON (PER)
+307,Australian Rules (MISC); AFL (MISC)
+308,NONE
+309,NONE
+310,PARIS (LOC)
+311,Houston (LOC); Jeff Bagwell (PER); Donne Wall (PER); Houston Astros (ORG); St. Louis Cardinals (ORG)
+312,North Korea (LOC); Seoul (LOC)
+313,SVCD (ORG); Bulgaria (LOC)
+314,Zinzan Brooke (PER)
+315,Americans (MISC); Todd Martin (PER); Alex O'Brien (PER)
+316,Doetinchem-Doetinchem (MISC)
+317,NONE
+318,Bruny Surin (PER); Canada (LOC)
+319,NONE
+320,COMEX (ORG); Codelco (ORG); Salvador (LOC); Chile (LOC)
+321,BONN (LOC)
+322,Guinean (MISC)
+323,U.N. (ORG); Iraq (LOC)
+324,Lens (ORG); Montpellier (ORG)
+325,Guillaume Raoux (PER); France (LOC); Filip Dewulf (PER); Belgium (LOC)
+326,PRESS DIGEST (MISC); Spain (LOC)
+327,PSG (ORG); Nantes (ORG); Patrice Loko (PER); Benoit Cauet (PER); Loko (PER)
+328,Education (ORG)
+329,Hasina (PER); Bogra (LOC)
+330,Florida (LOC)
+331,UNITED NATIONS (ORG)
+332,Finance Ministry (ORG)
+333,Juventus (ORG); European Cup (MISC)
+334,NONE
+335,U.S. (LOC); Myles Frechette (PER); Clinton (PER); Colombia (LOC); U.S. (LOC)
+336,Jan Siemerink (PER); Netherlands (LOC); Carlos Moya (PER); Spain (LOC)
+337,Afghanistan (LOC)
+338,New York (LOC); Garret Anderson (PER); Gary DiSarcina (PER); Jim Edmonds (PER); California Angels (ORG); Yankees (ORG)
+339,A. Jadeja (PER)
+340,NONE
+341,Polish (MISC)
+342,Loznica (ORG)
+343,Clinton (PER)
+344,Mickelson (PER)
+345,NONE
+346,French (MISC); Pol Pot (PER); Khmer Rouge (ORG); Cambodia (LOC)
+347,NBH (ORG); MIT (ORG)
+348,AMSTERDAM (LOC)
+349,NONE
+350,Sweden (LOC)
+351,Baker (PER); Clinton (PER); Republican National Convention (MISC); Syria (LOC); Israel (LOC)
+352,Sun Microsystems Inc. (ORG); JavaSoft (ORG); Internet Startup (ORG); Java (MISC)
+353,NEW YORK (LOC)
+354,CAPE TOWN (LOC)
+355,NEW YORK (LOC)
+356,Johnson (PER)
+357,Edouard Gritsoun (PER); Russia (LOC)
+358,Credit Suisse (ORG)
+359,Cimicchi (PER)
+360,Vaclavas Kidikas (PER); Lithuania (LOC)
+361,NONE
+362,CARLSBAD (LOC); California (LOC)
+363,Nigeria (LOC); Ikimi (PER); Reuters (ORG); Abuja (LOC)
+364,Martin Wolk (PER)
+365,Prague Stock Exchange (ORG)
+366,India (LOC); Tamil (MISC)
+367,Baltika Kaliningrad (ORG)
+368,NONE
+369,Swindon (ORG)
+370,Indians (MISC)
+371,Israeli (MISC); David Levy (PER); Egypt (LOC); Hosni Mubarak (PER); Foreign Ministry (ORG)
+372,Artyom Danielyan (PER); Moscow Newsroom (ORG)
+373,French (MISC); Nice (ORG); Albert Emon (PER)
+374,Puerto Rico (LOC)
+375,Clinton (PER); Democratic (MISC); Franklin D. Roosevelt (PER)
+376,Andrews (PER)
+377,Toronto (ORG); Guzman (PER)
+378,ACC (ORG); Indian (MISC); Palkhivala (PER)
+379,NONE
+380,Goias (ORG); Sport Recife (ORG)
+381,Portuguesa (ORG); Atletico Mineiro (ORG)
+382,NONE
+383,NONE
+384,AMSTERDAM (LOC)
+385,NONE
+386,SAN DIEGO (ORG)
+387,Stenning (PER)
+388,English (MISC)
+389,NONE
+390,North Melbourne (ORG); Geelong (ORG)
+391,BASEBALL (MISC); MAJOR LEAGUE (MISC)
+392,Diana (PER); Mother Teresa (PER)
+393,BEIJING (LOC)
+394,Gloria Bistrita (ORG); Ilie Lazar (PER); Eugen Voica (PER)
+395,Security Council (ORG); Iraq (LOC)
+396,NONE
+397,Rabobank (ORG)
+398,Morris (PER); Clinton (PER); Republican (MISC); Democrat (MISC); Dole (PER)
+399,NONE
+400,Formula Shell (ORG); Ginebra San Miguel (ORG)
+401,Fortuna Duesseldorf (ORG)
+402,NONE
+403,M. Atherton (PER); Inzamam-ul-Haq (PER); Mushtaq Ahmed (PER)
+404,Mathias Ntawulikura (PER); Rwanda (LOC)
+405,Turkish (MISC); Necmettin Erbakan (PER); Bosnian (MISC)
+406,NONE
+407,Lietti (PER)
+408,Constructorul (ORG)
+409,Colombo (LOC); Liberation Tigers of Tamil Eelam (ORG)
+410,St Pauli (ORG)
+411,NORTHAMPTON (LOC); England (LOC)
+412,Monrovia (LOC)
+413,Linford Christie (PER); Dream Team (MISC); Berlin (LOC)
+414,NONE
+415,Costa Rica (LOC); Hashimoto (PER)
+416,Ukraine (LOC); Ukraine (LOC)
+417,Republicans (MISC); White House (LOC); Congress (ORG)
+418,New Zealand Cricket (ORG); Sri Lankans (MISC); Hamilton (LOC); Wellington (LOC); Auckland (LOC); Christchurch (LOC); Dunedin (LOC); England (LOC)
+419,HANOVER (LOC); Germany (LOC)
+420,NONE
+421,NONE
+422,Phil Mickelson (PER)
+423,NONE
+424,Sydney Newsroom (ORG)
+425,NONE
+426,IRAQ (LOC)
+427,Woosnam (PER); Miguel Angel Jimenez (PER); Spain (LOC); Klas (PER)
+428,NONE
+429,Democrats (MISC); House of Representatives (ORG); Democrat (MISC); Republican (MISC)
+430,Freiburg (ORG)
+431,NONE
+432,SRI LANKA (LOC); INDIA (LOC)
+433,NONE
+434,Kispest (ORG); Pecs (ORG)
+435,CHICAGO (ORG); Florida (ORG)
+436,Tristan Hoffman (PER); Neths (LOC); TVM (ORG)
+437,Muthiah Muralitharan (PER); Ravindra Pushpakumara (PER)
+438,Garry West (PER); Amsterdam newsroom (ORG)
+439,NONE
+440,Laban Rotich (PER); Kenya (LOC)
+441,Robert Allenby (PER); Australia (LOC)
+442,Agnieszka Godras (PER); Poland (LOC)
+443,CHICAGO (LOC)
+444,U.S. (LOC); Midwest (LOC)
+445,NONE
+446,Royal Oak (ORG); EVEREN (ORG)
+447,NONE
+448,KATHMANDU (LOC)
+449,Mandsaur (LOC)
+450,TEXAS (ORG)
+451,NONE
+452,Trax (ORG); Morinville (LOC); Leduc Reef (LOC)
+453,UEFA (ORG)
+454,NONE
+455,Adelaide (ORG); Collingwood (ORG)
+456,Van Heeswijk (PER)
+457,AUSTRALIANS (MISC)
+458,NONE
+459,NONE
+460,Carlisle (ORG); Hull (ORG); Barnet (ORG); Leyton Orient (ORG); Hartlepool (ORG); Mansfield (ORG)
+461,Skeleton Canyon (LOC); Arizona (LOC); Geronimo (PER); Apache (MISC); Red Indian (MISC); Nelson Miles (PER)
+462,OFK Beograd (ORG); Mladost (ORG); BJ (LOC)
+463,MQM (ORG)
+464,EU (ORG); Commission (ORG); Gerard Kiely (PER); Reuters (ORG)
+465,Thai (MISC); Burmese (MISC); Thailand (LOC)
+466,Castleford (ORG)
+467,Helmer (PER); Klinsmann (PER); Bayern (ORG)
+468,Anders Forsbrand (PER); Sweden (LOC)
+469,Airdrieonians (ORG); East Fife (ORG)
+470,Club Brugge (ORG)
+471,NONE
+472,NONE
+473,CDU (ORG); CSU (ORG); SPD (ORG); FDP (ORG); Greens (ORG); PDS (ORG)
+474,Capiot (PER)
+475,NONE
+476,Eritrea (LOC); Sudan (LOC); Eritrea (LOC)
+477,PSG (ORG); Nantes (ORG)
+478,Texas (LOC); Oklahoma (LOC); Rodney Mosier (PER); Texas Wheat Producers (ORG)
+479,United Nations (ORG)
+480,baht (MISC)
+481,Surrey (ORG); Alec Stewart (PER)
+482,Argentine Apertura (MISC)
+483,Cairo (LOC); Egyptian (MISC); Britain (LOC)
+484,Army (ORG)
+485,Nasdaq (ORG)
+486,Americast (ORG); Southern New England Telecommunications Corp. (ORG)
+487,Gianfranco Stevanin (PER); Verona (LOC)
+488,Spartak Trnava (ORG)
+489,NONE
+490,NONE
+491,NONE
+492,Palestinian (MISC); Israel (LOC)
+493,Tsang (PER); New Zealand (LOC); Hong Kong (LOC); U.S. (LOC); China (LOC)
+494,Dutch (MISC); Brazil (LOC); Amsterdam (LOC)
+495,ACC (ORG)
+496,NONE
+497,Iraq (LOC); Saddam (PER)
+498,Raith (ORG); Motherwell (ORG)
+499,SAN FRANCISCO (ORG)
+500,CENTRAL DIVISION (MISC)
+501,JYVASKLYA (LOC); Finland (LOC)
+502,Mexico (LOC); Cetes (MISC)
+503,PAKISTAN (LOC); ENGLAND (LOC)
+504,PRESS DIGEST (MISC); Lebanon (LOC)
+505,SV Ried (ORG)
+506,Petra Drnovice (ORG)
+507,JORNAL DE ANGOLA (MISC)
+508,NONE
+509,Jack Kevorkian (PER); Missouri (LOC)
+510,PARIS (LOC)
+511,NONE
+512,Margaret McCullough (PER)
+513,Western Suburbs (ORG)
+514,Moyer (PER)
+515,Mohammad Akram (PER); Mushtaq Ahmed (PER)
+516,Italian (MISC); ANSA (ORG)
+517,NONE
+518,Smicer (PER)
+519,Millns (PER); Australia (LOC); England A (ORG); Phillip DeFreitas (PER); Boland (ORG)
+520,CENTRAL DIVISION (MISC)
+521,Hungary (LOC)
+522,William Fox (PER)
+523,China (LOC); Japan (LOC)
+524,NONE
+525,Bill Clinton (PER)
+526,Java (MISC)
+527,NONE
+528,CHICAGO (ORG)
+529,Bundesliga (MISC)
+530,Svetlana Samokhalova (PER); Russia (LOC)
+531,Nicaraguan (MISC); Violeta Chamorro (PER); United States (LOC)
+532,NONE
+533,ATLANTA (ORG)
+534,Espinho (ORG); Sporting (ORG)
+535,Chicago (LOC); Erik Hanson (PER); Alex Fernandez (PER); Jacob Brumfield (PER); Otis Nixon (PER); Toronto Blue Jays (ORG); White Sox (ORG)
+536,NONE
+537,NEW YORK (LOC)
+538,Barcelona (ORG)
+539,Rubens Barrichello (PER); Brazil (LOC); Jordan (ORG)
+540,Colchester (ORG)
+541,Amtrak (ORG); Vermont (LOC)
+542,Peter Pieters (PER); Tomas Post (PER); Netherlands (LOC)
+543,Brazilian (MISC)
+544,NONE
+545,NONE
+546,Chelsea (PER); Bill Clinton (PER); West Virginia (LOC); Kentucky (LOC); Ohio (LOC)
+547,Wayne Ferreira (PER); South Africa (LOC); Tim Henman (PER); Britain (LOC)
+548,NONE
+549,LUSAKA (LOC)
+550,Belarus (LOC)
+551,NONE
+552,Ally McCoist (PER)
+553,Bosnian (MISC); Hungary (LOC)
+554,PRESS DIGEST (MISC); Israel (LOC)
+555,Moslem (MISC); Hungary (LOC); Nagyatad (LOC); OSCE (ORG); Bosnian-Croat Federation (LOC); Moslems (MISC)
+556,NONE
+557,Fiona May (PER); Italy (LOC)
+558,MIDEAST GULF (LOC); RED SEA (LOC)
+559,NONE
+560,NONE
+561,Lee Westwood (PER)
+562,Russian (MISC); Erdmann (PER); Reuters (ORG); Ischinger (PER); Moscow (LOC)
+563,NONE
+564,Bobby Bonilla (PER)
+565,Cedric Pioline (PER); France (LOC); Gregory Carraz (PER); France (LOC)
+566,North Island (LOC); Tauranga (LOC)
+567,Socialist (MISC); Servet Pellumbi (PER); Karl Marx (PER)
+568,EU (ORG)
+569,Thomas Daschle (PER)
+570,ING (ORG)
+571,ENGLISH COUNTY CHAMPIONSHIP (MISC)
+572,NONE
+573,NONE
+574,Masterkova (PER)
+575,Florida (LOC)
+576,NONE
+577,MSK Zilina (ORG)
+578,NONE
+579,Cleveland (ORG); DETROIT (ORG)
+580,NONE
+581,John Simon (PER); Southern Illinois University (ORG); Carbondale (LOC); Gen (MISC)
+582,Revs (ORG)
+583,Rakow Czestochowa (ORG)
+584,NONE
+585,Tokyo-Mitsubishi Bank (ORG)
+586,Zeng Yaqiong (PER); China (LOC); Li Feng (PER); New Zealand (LOC)
+587,Scifo (PER); Monaco (ORG); James Debbah (PER); Nice (ORG); Patrice Loko (PER); PSG (ORG)
+588,NONE
+589,Legia Warsaw (ORG); Ryszard Wieczorek (PER); Odra Wodzislaw (ORG)
+590,Oncins (PER)
+591,HONG KONG (LOC)
+592,U.S. (LOC)
+593,Davenport (PER); Karina Habsudova (PER); Slovakia (LOC)
+594,ZIFA (ORG); Vincent Pamire (PER); Grobbelaar (PER); Tanzania (LOC); Harare (LOC); Castle Cup of Africa (MISC); African Nations ' Cup (MISC); Sudan (LOC); Khartoum (LOC)
+595,BASEBALL (MISC); MAJOR LEAGUE (MISC)
+596,NONE
+597,Ukraine (LOC)
+598,NONE
+599,Liam (PER); London (LOC)
+600,HONG KONG (LOC)
+601,NONE
+602,LAS CRUCES (LOC); N.M. (LOC)
+603,Kankkunen (PER)
+604,NONE
+605,ENGLISH (MISC)
+606,NONE
+607,Machado (PER); Los Angeles (LOC); New Mexico (LOC); Las Cruces (LOC); Miss Teen USA (MISC)
+608,Reuters (ORG)
+609,NONE
+610,Socialists (MISC)
+611,Japan (LOC); South Korea (LOC); China (LOC)
+612,JOHANNESBURG (LOC)
+613,Aamir Sohail (PER)
+614,R. Dravid (PER)
+615,OAKLAND (ORG)
+616,Miss Universe (MISC)
+617,Preston (ORG); Bristol Rovers (ORG)
+618,HOEK LOOS (ORG)
+619,Mother Teresa (PER)
+620,CHRISTIE (PER); JOHNSON (PER); OWENS (PER)
+621,Wasim (PER)
+622,NONE
+623,Firestone C.C (LOC)
+624,Mother Teresa (PER); Calcutta (LOC)
+625,Coolee City (LOC); WA (LOC)
+626,Anders Olofsson (PER); Sweden (LOC); Luciano della Noce (PER); Italy (LOC); Ennea (ORG)
+627,Bernard Tapie (PER); National Assembly (ORG); Claude Lelouche (PER); France (LOC)
+628,Yassin (PER)
+629,Oklahoma (LOC); Agricultural Statistics Service (ORG)
+630,Clinton (PER); Democratic Convention (MISC); Gore (PER); Republican (MISC); Bob Dole (PER)
+631,Wasim Akram (PER); Stewart (PER); Croft (PER)
+632,Tromso (ORG); Kongsvinger (ORG)
+633,NONE
+634,Mark McNulty (PER); Zimbabwe (LOC)
+635,NONE
+636,Mushtaq Ahmed (PER); Aamir Sohail (PER)
+637,U.S. (LOC); Colombian (MISC); AMR Corp (ORG); American Airlines (ORG); New York (LOC); Bogota (LOC); Department of Transportation (ORG)
+638,English County Championship (MISC)
+639,NONE
+640,South Africa (LOC); Dutch (MISC)
+641,Moscow Newsroom (ORG)
+642,ETHIOPIA (LOC); UGANDA (LOC); AFRICAN NATIONS CUP (MISC)
+643,Frankfurt (LOC); Europe (LOC)
+644,White House (LOC)
+645,F.W. de Klerk (PER); African National Congress (ORG); Thabo Mbeki (PER)
+646,Paul Koech (PER); Kenya (LOC)
+647,NEW YORK (LOC)
+648,NONE
+649,Ciputra Development (ORG); Jakarta (LOC); Surabaya (LOC)
+650,SYDNEY (LOC)
+651,Vitesse Arnhem (ORG); Utrecht (ORG); Raymond Atteveld (PER); Erwin van der Looi (PER)
+652,Pescara (ORG); Ottavio Palladini (PER); Parma (ORG)
+653,Ajax Amsterdam (ORG)
+654,NONE
+655,Francisco Cea (PER); Spain (LOC); Pedro Linhart (PER)
+656,Stephen Ames (PER); Trinidad (LOC); Roger Chapman (PER)
+657,Southend (ORG)
+658,Namibia (ORG); Botswana (ORG)
+659,Alaniya Vladikavkaz (ORG)
+660,Tunisian (MISC)
+661,NONE
+662,Gimnasia-Jujuy (ORG); Platense (ORG)
+663,WESTERN DIVISION (MISC)
+664,Helibor (MISC)
+665,Lada Togliatti (ORG); Spartak Moscow (ORG)
+666,BLOM Stock Index (MISC); LISPI (MISC)
+667,Vitesse Arnhem (ORG); Vierklau (PER); Sparta Rotterdam (ORG); Gerard (PER)
+668,NONE
+669,JCR (ORG); JBRI (ORG); NIS (ORG)
+670,Penn Treaty (ORG); New York (LOC)
+671,NONE
+672,NONE
+673,CHICAGO (LOC)
+674,IOC (ORG); German (MISC)
+675,Johnson (PER); Britain (LOC); Christie (PER); Bailey (PER); Namibia (LOC); Frankie Fredericks (PER)
+676,NONE
+677,Minnesota (LOC); Ken Hill (PER); Rusty Greer (PER); Texas Rangers (ORG); Twins (ORG)
+678,MINNETONKA (LOC); Minn (LOC)
+679,High Court (ORG); Tando Allahyar (LOC); Hyderabad (LOC)
+680,Sylvie Florence (PER)
+681,Lebed (PER); Chechnya (LOC); Yeltsin (PER)
+682,NONE
+683,Meri (PER); Ruutel (PER)
+684,UAG (ORG); Neza (ORG)
+685,Iraqi Kurdish (MISC); Iraq (LOC); Kurdish (MISC); Baghdad (LOC)
+686,Hashimoto (PER)
+687,M. Dekker (PER)
+688,Chua (PER)
+689,Iraq (LOC)
+690,Tim Herron (PER); Duffy Waldorf (PER); Davis Love (PER); Anders Forsbrand (PER)
+691,BOSTON (ORG); CALIFORNIA (ORG)
+692,John Gilardi (PER); Frankfurt Newsroom (ORG)
+693,MBIA (ORG)
+694,SoCal Edison (ORG)
+695,Christopher Wreh (PER); Guingamp (ORG); Marc-Vivien Foe (PER); Lens (ORG); Enzo (PER)
+696,Taha (PER)
+697,Buffalo Bills (ORG); Football Hall of Fame (MISC)
+698,Sydney (LOC)
+699,NONE
+700,HONG KONG (LOC)
+701,World Series (MISC); India (LOC); Sri Lanka (LOC)
+702,Boeta Wessels (PER)
+703,Criciuma (ORG)
+704,PORTUGUESE (MISC)
+705,NUREMBERG (LOC); Germany (LOC)
+706,NONE
+707,Bohdan Ulihrach (PER); Czech Republic (LOC); Alberto Costa (PER)
+708,MANAMA (LOC)
+709,NONE
+710,Tami Whitlinger Jones (PER); U.S. (LOC); Amy Frazier (PER); U.S. (LOC)
+711,Bonnet (PER); Kwazulu-Natal (ORG); Gavin Featherstone (PER); South Africa (LOC); Olympic Games (MISC); Atlanta (LOC)
+712,NONE
+713,European (MISC)
+714,Hillary Rodham Clinton (PER)
+715,NONE
+716,NONE
+717,Martin Damm (PER); Czech Republic (LOC); Younes El Aynaoui (PER)
+718,AEI (ORG); Spanish (MISC); ISO 9002 (MISC)
+719,Dole (PER); Democratic (MISC); Republican (MISC)
+720,TEXAS (ORG)
+721,David Rikl (PER); Czech Republic (LOC); Hicham Arazi (PER); Morocco (LOC)
+722,LAGOS (LOC)
+723,NONE
+724,rupees (MISC)
+725,Dayton (LOC)
+726,Michael Stich (PER); U.S. Open (MISC); Wimbledon (MISC); Tommy Haas (PER)
+727,Revolutionary United Front (ORG)
+728,Mike Clayton (PER); Australia (LOC); Emanuele Canonica (PER); Italy (LOC)
+729,Bulgarian (MISC); Bulatka (ORG)
+730,NONE
+731,HELSINKI (LOC)
+732,Haitai (ORG); Hanwha (ORG)
+733,French (MISC)
+734,Freiburg (ORG)
+735,Cometra (ORG); Morinville (LOC); Leduc Reef (LOC)
+736,Beirut Stock Exchange (ORG); Ciments Libanais (ORG)
+737,Arafat (PER); Peres (PER); Gaza (LOC)
+738,Bristol City (ORG)
+739,Athens (LOC); Tirana (LOC); Albanian (MISC); Balkan (MISC)
+740,Togo (LOC)
+741,IMF (ORG)
+742,Reuters (ORG)
+743,Windows 95 (MISC); Office 95 (MISC); Microsoft (ORG)
+744,Portuguesa (ORG); Parana (ORG)
+745,Andy Caddick (PER)
+746,Jews (MISC); Christians (MISC); Arafat (PER)
+747,Chicago (LOC)
+748,African (MISC); Security Council (ORG); Pierre Buyoya (PER); Tutsi (MISC); Hutus (MISC)
+749,HOUSTON (ORG)
+750,LONDON (LOC)
+751,Larnaca (LOC); AEK Larnaca (ORG); Cyprus (LOC); Kotaik Abovyan (ORG); Armenia (LOC)
+752,BP (ORG); BP (ORG)
+753,NONE
+754,Keiichi Kitigawa (PER); Japan (LOC); Suzuki (ORG)
+755,Max van Heeswijk (PER); Netherlands (LOC); Motorola (ORG)
+756,NONE
+757,NONE
+758,Corey Pavin (PER)
+759,BELGIAN (MISC)
+760,Thai (MISC); Hong Kong (LOC); Hong Kong (LOC)
+761,Inzamam-ul-Haq (PER); Hussain (PER); Mullally (PER)
+762,Peres (PER)
+763,Crohn 's (MISC)
+764,Shimon Peres (PER); Morocco (LOC)
+765,NONE
+766,EL MUNDO (ORG)
+767,Iran (LOC)
+768,NONE
+769,Montpellier (ORG); Cannes (ORG); Charvet (PER)
+770,MSV Duisburg (ORG)
+771,Grand Slam (MISC)
+772,Raith (ORG); Rangers (ORG); Celtic (ORG); Motherwell (ORG)
+773,Ipswich (ORG)
+774,British (MISC); Malcolm Rifkind (PER); London (LOC); British (MISC)
+775,JUMHOURIYA (ORG)
+776,NONE
+777,NONE
+778,Irina Privalova (PER); Russia (LOC)
+779,Arantxa Sanchez Vicario (PER); Spain (LOC); Jana Novotna (PER); Czech Republic (LOC)
+780,Russian (MISC); RAO Gazprom (ORG); Federal Securities Corporation (ORG); FFK (ORG)
+781,Albania (LOC); Briton (MISC)
+782,U.S. State Department (ORG); Washington (LOC); Philip Wilcox (PER); Colombo (LOC)
+783,Guarani (ORG)
+784,Martin Ayres (PER)
+785,BONN (LOC)
+786,NONE
+787,Britain (LOC); Rifkind (PER); Pakistan (LOC); Reuters (ORG)
+788,Earth First (ORG)
+789,CARLSBAD (LOC); California (LOC)
+790,Opera (LOC)
+791,Oppenheimer Capital (ORG)
+792,Organisation for Security and Cooperation in Europe (ORG); Hungarian (MISC)
+793,Thiel (PER); Michael Johnson (PER); Christie (PER)
+794,Wayne Jordan (PER); Arkansas State Police (ORG)
+795,Allan Wells (PER); Britain (LOC)
+796,NONE
+797,NONE
+798,PUNR (ORG); Gheorghe Funar (PER); Iliescu (PER); Hungarian (MISC)
+799,All Blacks (ORG); John Hart (PER); Jim Bolger (PER)
+800,Pakistan (LOC)
+801,NONE
+802,National League (MISC)
+803,NONE
+804,Conservative New Democracy (ORG); ND (ORG); Miltiadis Evert (PER); Alexandroupolis (LOC); ND (ORG)
+805,NONE
+806,Ghibellines (MISC); Florence (LOC); Florentine Guelfs (MISC); Monte Aperto (LOC)
+807,Santos (ORG)
+808,Dnipro Dnipropetrovsk (ORG); CSKA Kiev (ORG)
+809,NONE
+810,NONE
+811,NONE
+812,Takeishi (PER)
+813,U.S. (LOC); Bill Clinton (PER); Ballybunion (LOC); Irish (MISC)
+814,Cheung (PER)
+815,U.S. (LOC); Middle East (LOC); Dennis Ross (PER); Paris (LOC); Israeli (MISC); Egyptian (MISC)
+816,NEW YORK (LOC)
+817,FRENCH (MISC)
+818,NONE
+819,Iranian (MISC); Baghdad (LOC)
+820,Socialist Party (ORG); Reuters (ORG)
+821,NONE
+822,Hanwha (ORG)
+823,BEIJING (LOC)
+824,Gabriele Colombo (PER); Italy (LOC)
+825,Danny Theybers (PER); Belgium (LOC); Honda (ORG)
+826,CALIFORNIA (ORG)
+827,Fabio Baldato (PER); Italy (LOC)
+828,Hekmatyar (PER); Rabbani (PER)
+829,EU (ORG); German (MISC)
+830,Plymouth (ORG)
+831,Kabariti (PER)
+832,NEW YORK (LOC)
+833,STOCKHOLM (LOC)
+834,Utrecht (ORG); Twente Enschede (ORG)
+835,NONE
+836,Ferencvaros (ORG)
+837,ALLENTOWN (LOC); Pa. (LOC)
+838,Jordan (LOC); Iraq (LOC); Iraqi (MISC)
+839,NONE
+840,NONE
+841,NONE
+842,Italian Cup (MISC); Fiorentina (ORG)
+843,Csepel (ORG); Videoton (ORG)
+844,NONE
+845,1,000 LAKES RALLY (MISC)
+846,Yoshikawa (PER)
+847,NONE
+848,BRASILIA (LOC)
+849,HELIBOR (MISC)
+850,NONE
+851,Peronists (MISC); Hector Campora (PER); Vicente Solano Lima (PER)
+852,Cruzeiro (ORG)
+853,Jim Furyk (PER)
+854,Caddick (PER)
+855,Statesman (ORG); Mangala Das (PER); Prem Dan (ORG); Gift of Love (ORG); Mother Teresa (PER)
+856,Democrats (MISC); Chicago (LOC); Clinton (PER); Republican (MISC); Bob Dole (PER)
+857,NONE
+858,Cleveland Newsdesk (ORG)
+859,NONE
+860,Karlsruhe (ORG)
+861,St Mirren (ORG); St Johnstone (ORG)
+862,Ferhaoui (PER); Lefevre (PER)
+863,Rana Sabbagh (PER)
+864,CENTRAL DIVISION (MISC)
+865,Franny Weld (PER); Tracy Roosevelt (PER)
+866,Lille (ORG); Rennes (ORG)
+867,Australia (LOC); Zimbabwe (LOC); Singer World Series (MISC)
+868,Mushota (PER)
+869,PLO Council (ORG); Israel (LOC)
+870,NONE
+871,Netanyahu (PER)
+872,U.S. (LOC)
+873,Yeltsin (PER); Russian (MISC)
+874,Carlos Costa (PER); Spain (LOC); Magnus Gustafsson (PER); Sweden (LOC)
+875,Sofia Newsroom (ORG)
+876,NONE
+877,Lord 's (LOC); Pakistan (LOC)
+878,Frenchman (MISC); Frank LeBoeuf (PER); Italian (MISC); Gianluca Vialli (PER); Chelsea (ORG); Coventry (ORG); Arsenal (ORG); Leicester (ORG)
+879,NONE
+880,NONE
+881,Democratic (MISC)
+882,Lauck (PER); German (MISC)
+883,Iraqis (MISC); Sudan Airways (ORG); London (LOC); Khartoum (LOC); Amman (LOC)
+884,Kuperman (PER)
+885,Helena Sukova (PER); Czech Republic (LOC); Paola Suarez (PER); Argentina (LOC)
+886,NONE
+887,Patrick Rafter (PER); Australia (LOC); MaliVai Washington (PER); U.S. (LOC)
+888,NONE
+889,North (LOC); South Kivu (LOC); Maniema (LOC); Shaba (LOC); Bandundu (LOC)
+890,NONE
+891,Major League Baseball (MISC)
+892,LAGOS (LOC)
+893,Warrington (ORG)
+894,Sydney Australian All-Ordinaries index (MISC)
+895,NONE
+896,NONE
+897,Bosnian (MISC)
+898,Republicans (MISC); Democrat (MISC)
+899,NYC (LOC)
+900,NONE
+901,Zaire (LOC); Rwandan (MISC); Hutu (MISC)
+902,NONE
+903,Pier Francesco Chili (PER); Italy (LOC); Ducati (ORG)
+904,Boardman (PER); Edouard Gritson (PER); Russia (LOC)
+905,Davies (PER); Cuba (LOC)
+906,Malta (LOC)
+907,India (LOC); Associated Cement Companies (ORG); ACC (ORG)
+908,ASARCO (ORG)
+909,Housecall (ORG)
+910,Federico Colonna (PER); Italy (LOC); Mapei (ORG)
+911,NONE
+912,NONE
+913,NONE
+914,OMLX (ORG); London Securities & Derivatives Exchange (ORG); OM Stockholm (ORG); OM Gruppen (ORG); OM Gruppen (ORG)
+915,MILWAUKEE (ORG); CHICAGO (ORG)
+916,Algerian (MISC); Moslem (MISC); French (MISC); Algeria (LOC); Algerian (MISC)
+917,NONE
+918,Hong Kong (LOC); China (LOC)
+919,NONE
+920,NONE
+921,Fontaine Co Ltd (ORG)
+922,Peter Greste (PER)
+923,African Football Confederation (ORG); CAF (ORG); Burundi (LOC); African Nations Cup (MISC); Central African Republic (LOC)
+924,NONE
+925,German (MISC)
+926,NONE
+927,Rifkind (PER); Pakistan (LOC); Asian (MISC); India (LOC); Sri Lanka (LOC); Japan (LOC); Mongolia (LOC)
+928,China (LOC); Liaoning (LOC)
+929,NONE
+930,Santos (ORG); Narciso (PER); Jean (PER); Sao Paulo (ORG)
+931,Feyenoord (ORG); Larsson (PER); Van Gastel (PER); Graafschap (ORG)
+932,NONE
+933,LONDON (LOC)
+934,Hintsa (PER)
+935,Serbs (MISC); Bosnia (LOC); Yugoslavia (LOC); Krajina (LOC)
+936,Nalkhera (LOC)
+937,Mostostal Z (ORG)
+938,Santos (ORG)
+939,INA (ORG); Iraqis (MISC)
+940,Hapoel Ironi Rishon Lezion (ORG); Hapoel Taibe (ORG)
+941,MILLNS (PER); BOLAND (ORG)
+942,Iceland (LOC)
+943,Barbara Rittner (PER); Germany (LOC); Katarina Studenikova (PER); Slovakia (LOC)
+944,Samsung (ORG)
+945,UNITED NATIONS (ORG)
+946,Darren McKenzie-Potter (PER); New Zealand (LOC)
+947,World Cup (MISC)
+948,Dutroux (PER); Slovak (MISC)
+949,Portsmouth (ORG); Southend (ORG)
+950,Rakow Czestochowa (ORG); Stomil Olsztyn (ORG)
+951,Dublin Newsroom (ORG)
+952,MARCELO (PER); PSV (ORG); DUTCH (MISC)
+953,African (MISC)
+954,Willem II Tilburg (ORG)
+955,NONE
+956,RAF Riga (ORG); Agrins Zarins (PER)
+957,Sergi Bruguera (PER); Spain (LOC); Michael Stich (PER); Germany (LOC)
+958,Milan (ORG); George Weah (PER); Italian (MISC); Roberto Baggio (PER)
+959,Tankan (MISC); Bank of Japan (ORG)
+960,Angolan (MISC)
+961,EDBERG (PER); GRAND SLAM (MISC); WIMBLEDON (MISC)
+962,Carlisle (ORG); Leyton Orient (ORG)
+963,Cyprien (PER); French (MISC); Italy (LOC); Switzerland (LOC)
+964,Oakland (ORG); BALTIMORE (ORG)
+965,Simon Brown (PER)
+966,LONDON (LOC)
+967,ATLANTA (ORG)
+968,Griqualand West (ORG); Andre Cloete (PER); Leon van der Wath (PER)
+969,NONE
+970,Salomon Brothers (ORG); Paul Ting (PER)
+971,Marwan Muasher (PER); Iraq (LOC)
+972,MOSCOW (LOC)
+973,Saudi (MISC)
+974,Dutroux (PER)
+975,ENGLISH (MISC)
+976,China (LOC)
+977,DUBAI (LOC)
+978,AMSTETTEN (LOC); Austria (LOC)
+979,USDA (ORG)
+980,Rudar (ORG)
+981,BASEBALL (MISC); MAJOR LEAGUE (MISC)
+982,Sydney Newsroom (ORG)
+983,Huw Jones (PER); New York Commodities (ORG)
+984,NONE
+985,England (LOC)
+986,Petra Langrova (PER); Czech Republic (LOC); Naoko Sawamatsu (PER); Japan (LOC)
+987,WARSAW (LOC)
+988,Jim Bidzos (PER); RSA Data Security (ORG); Security Dynamics Technologies Inc. (ORG); VeriSign (ORG)
+989,Japan (LOC); Japan (LOC)
+990,Ford (ORG)
+991,Japanese (MISC); Tankan (MISC)
+992,MOSCOW (LOC)
+993,NONE
+994,Andrew Huddart (PER); London Newsroom (ORG)
+995,Meri (PER); Arnold Ruutel (PER)
+996,Neagle (PER); Braves (ORG)
+997,NONE
+998,NONE
+999,NONE
+1000,Thomas Bjorn (PER); Denmark (LOC); Fernando Roca (PER); Spain (LOC); Derrick (PER)

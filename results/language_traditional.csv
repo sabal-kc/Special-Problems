@@ -1,0 +1,21 @@
+id,text,actual,predicted,correct
+1,"Hello, how are you today?",English,English,True
+2,"Bonjour, comment allez-vous?",French,French,True
+3,"Hola, ¿cómo estás?",Spanish,Spanish,True
+4,"Guten Tag, wie geht es Ihnen?",German,German,True
+5,"Ciao, come stai?",Italian,Portuguese,False
+6,The weather is beautiful today.,English,English,True
+7,Je suis très content de vous voir.,French,French,True
+8,Me gusta mucho la comida española.,Spanish,Spanish,True
+9,Ich lerne Deutsch seit zwei Jahren.,German,German,True
+10,La pizza italiana è la migliore del mondo.,Italian,Italian,True
+11,This is a simple English sentence.,English,English,True
+12,Les enfants jouent dans le parc.,French,French,True
+13,El gato está durmiendo en el sofá.,Spanish,Spanish,True
+14,Das Buch ist sehr interessant.,German,German,True
+15,Mi piace viaggiare in Italia.,Italian,Italian,True
+16,Programming is fun and challenging.,English,English,True
+17,La vie est belle quand on est heureux.,French,French,True
+18,Necesito comprar leche y pan.,Spanish,Spanish,True
+19,Die Musik ist wunderschön.,German,German,True
+20,Roma è una città bellissima.,Italian,Italian,True

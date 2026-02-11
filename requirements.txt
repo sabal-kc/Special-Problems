@@ -1,0 +1,8 @@
+nltk
+spacy
+scikit-learn
+langdetect
+datasets
+pandas
+tqdm
+matplotlib
