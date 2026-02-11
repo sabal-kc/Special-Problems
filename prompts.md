@@ -15,7 +15,7 @@
 
 ```
 You are a sentiment analysis expert. I will give you a CSV with columns "id" and "text".
-For each row, classify the sentiment as exactly one of: positive, negative, or neutral.
+For each row, classify the sentiment as exactly one of: positive, negative.
 
 Return your answer as a CSV with exactly two columns: id, label
 Do NOT include any explanation or extra text. Only output the CSV (with header row).
@@ -89,7 +89,7 @@ Here is the data:
 
 ```
 You are a topic classification expert. I will give you a CSV with columns "id" and "text".
-Each text belongs to one of these 4 topics: Finance, Technology, Sports, Science.
+Each text belongs to one of these 4 topics: World, Sports, Business, Sci/Tech.
 
 For each row, assign exactly one topic label from the list above.
 
@@ -114,7 +114,7 @@ Here is the data:
 You are a language identification expert. I will give you a CSV with columns "id" and "text".
 For each row, identify the language of the text.
 
-Use full language names: English, French, Spanish, German, Italian, Portuguese, etc.
+Use exactly these full language names: Arabic, Bulgarian, Chinese, Dutch, English, French, German, Greek, Hindi, Italian, Japanese, Polish, Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Urdu, Vietnamese.
 
 Return your answer as a CSV with exactly two columns: id, language
 Do NOT include any explanation or extra text. Only output the CSV (with header row).

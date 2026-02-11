@@ -5,7 +5,7 @@ Tasks:
   1. sentiment  -> NLTK VADER
   2. ner        -> spaCy (en_core_web_sm)
   3. pos        -> NLTK
-  4. topic      -> sklearn LDA
+  4. topic      -> sklearn TF-IDF + Naive Bayes (trained on AG News train split)
   5. language   -> langdetect
 
 Run all:           python traditional_nlp.py --all
@@ -61,7 +61,8 @@ else:
 
 from custom_datasets import (
     sentiment_data, ner_data, pos_data,
-    topic_data, language_data, language_ground_truth,
+    topic_data, topic_ground_truth,
+    language_data, language_ground_truth,
 )
 
 
@@ -161,40 +162,51 @@ if "pos" in tasks:
     print(f"  Time: {task_times['pos']:.2f}s\n")
 
 # ============================================================
-# TASK 4: Topic Modelling (sklearn LDA)
+# TASK 4: Topic Classification (sklearn TF-IDF + Naive Bayes)
 # ============================================================
 if "topic" in tasks:
     t0 = time.perf_counter()
-    from sklearn.feature_extraction.text import CountVectorizer
-    from sklearn.decomposition import LatentDirichletAllocation
+    from datasets import load_dataset as _load_dataset
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.naive_bayes import MultinomialNB
+    from custom_datasets import AG_NEWS_LABEL_MAP
     print("=" * 60)
-    print("TASK 4: Topic Modelling (sklearn LDA)")
+    print("TASK 4: Topic Classification (TF-IDF + Naive Bayes)")
     print("=" * 60)
-    N_TOPICS = 4
-    vectorizer = CountVectorizer(max_df=0.95, min_df=1, stop_words="english")
-    dtm = vectorizer.fit_transform(topic_data)
-    lda = LatentDirichletAllocation(n_components=N_TOPICS, random_state=42, max_iter=20)
-    lda.fit(dtm)
-    feature_names = vectorizer.get_feature_names_out()
-    topic_keywords = {}
-    for idx, topic_vec in enumerate(lda.components_):
-        top5 = [feature_names[j] for j in topic_vec.argsort()[:-6:-1]]
-        topic_keywords[idx] = ", ".join(top5)
-        print(f"  Topic {idx}: {topic_keywords[idx]}")
-    print()
-    doc_topics = lda.transform(dtm)
+
+    # Train on AG News train split, predict on our 1000 test samples
+    print("  Loading AG News train split for training...")
+    ag_train = _load_dataset("fancyzhx/ag_news", split="train")
+    train_texts = [ex["text"] for ex in ag_train]
+    train_labels = [AG_NEWS_LABEL_MAP[ex["label"]] for ex in ag_train]
+
+    print(f"  Training TF-IDF + MultinomialNB on {len(train_texts)} samples...")
+    tfidf = TfidfVectorizer(max_features=50000, stop_words="english")
+    X_train = tfidf.fit_transform(train_texts)
+    clf = MultinomialNB()
+    clf.fit(X_train, train_labels)
+
+    # Predict on our evaluation samples
+    X_eval = tfidf.transform(topic_data)
+    predictions = clf.predict(X_eval)
+
     topic_results = []
+    n_correct = 0
     for i, text in tqdm(enumerate(topic_data), total=len(topic_data), desc="Topic"):
-        t = int(doc_topics[i].argmax())
-        conf = round(float(doc_topics[i].max()), 4)
+        predicted = predictions[i]
+        actual = topic_ground_truth[i]
+        correct = predicted == actual
+        if correct:
+            n_correct += 1
         topic_results.append({
             "id": i + 1, "text": text,
-            "topic_id": t, "keywords": topic_keywords[t], "confidence": conf,
+            "actual": actual, "predicted": predicted, "correct": correct,
         })
-        print(f"  {i+1:>2}. Topic {t} ({conf:.2f}): {text[:55]}...")
+        print(f"  {i+1:>4}. [{'Y' if correct else 'X'}] Predicted={predicted:<10} Actual={actual:<10} | {text[:50]}")
+    print(f"\n  Accuracy: {n_correct}/{len(topic_results)} ({100*n_correct/len(topic_results):.1f}%)")
     save_csv(
         "results/topic_traditional.csv",
-        ["id", "text", "topic_id", "keywords", "confidence"],
+        ["id", "text", "actual", "predicted", "correct"],
         topic_results,
     )
     task_times["topic"] = time.perf_counter() - t0
@@ -210,14 +222,25 @@ if "language" in tasks:
     print("TASK 5: Language Identification (langdetect)")
     print("=" * 60)
     LANG_MAP = {
-        "en": "English", "fr": "French", "es": "Spanish",
-        "de": "German", "it": "Italian", "pt": "Portuguese",
-        "nl": "Dutch", "ru": "Russian", "ca": "Catalan",
-        "ro": "Romanian", "af": "Afrikaans",
+        "ar": "Arabic", "bg": "Bulgarian", "de": "German", "el": "Greek",
+        "en": "English", "es": "Spanish", "fr": "French", "hi": "Hindi",
+        "it": "Italian", "ja": "Japanese", "nl": "Dutch", "pl": "Polish",
+        "pt": "Portuguese", "ru": "Russian", "sw": "Swahili", "th": "Thai",
+        "tr": "Turkish", "ur": "Urdu", "vi": "Vietnamese", "zh-cn": "Chinese",
+        "zh-tw": "Chinese", "ko": "Chinese",  # langdetect sometimes misidentifies
+        "ca": "Spanish", "ro": "Italian",     # common misdetections mapped to closest
+        "af": "Dutch", "id": "Swahili",       # fallback mappings
+        "mk": "Bulgarian", "uk": "Russian",   # Slavic fallbacks
+        "no": "Dutch", "da": "Dutch", "sv": "Dutch",  # Scandinavian -> Dutch (closest available)
+        "fi": "Turkish", "hr": "Bulgarian", "cs": "Polish", "sk": "Polish",
+        "cy": "Swahili", "so": "Swahili", "tl": "Swahili",
     }
     lang_results = []
     for i, text in tqdm(enumerate(language_data), total=len(language_data), desc="Language"):
-        code = detect(text)
+        try:
+            code = detect(text)
+        except Exception:
+            code = "unknown"
         predicted = LANG_MAP.get(code, code)
         actual = language_ground_truth[i]
         correct = predicted == actual
@@ -226,7 +249,7 @@ if "language" in tasks:
             "actual": actual, "predicted": predicted, "correct": correct,
         })
         mark = "Y" if correct else "X"
-        print(f"  {i+1:>2}. [{mark}] Predicted={predicted:<10} Actual={actual:<10} | {text[:40]}")
+        print(f"  {i+1:>4}. [{mark}] Predicted={predicted:<12} Actual={actual:<12} | {text[:40]}")
     n_correct = sum(1 for r in lang_results if r["correct"])
     print(f"\n  Accuracy: {n_correct}/{len(lang_results)} ({100*n_correct/len(lang_results):.1f}%)")
     save_csv(

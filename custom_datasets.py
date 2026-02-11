@@ -1,13 +1,14 @@
 """
 Shared datasets for all NLP tasks.
 
-For **sentiment analysis** we use the standard Stanford Sentiment Treebank 2
-(SST‑2) dataset via the `datasets` library (10,000 positive + 10,000 negative
-= 20,000 sentences by default). This is the benchmark commonly used in
-sentiment comparison papers.
+All five tasks use standard benchmark datasets loaded via the `datasets`
+library (Hugging Face):
 
-The other tasks still use small hand-written examples to keep the
-pipeline light-weight.
+  1. Sentiment analysis  -> SST-2      (20 000 sentences)
+  2. NER                 -> CoNLL-2003 (1 000 sentences)
+  3. POS tagging         -> CoNLL-2003 (same 1 000 sentences as NER)
+  4. Topic classification -> AG News   (1 000 articles, 4 classes)
+  5. Language ID          -> papluca/language-identification (1 000 texts, 20 languages)
 """
 
 import random
@@ -177,60 +178,79 @@ except Exception as e:
 # pos_data and pos_ground_truth are set above
 
 # ============================================================
-# 4. Topic Modelling Dataset (20 samples)
+# 4. Topic Classification Dataset (AG News, 1000 samples)
 # ============================================================
-topic_data = [
-    "The stock market reached an all-time high today with major gains in tech stocks.",
-    "The new smartphone features a 108MP camera and 5G connectivity.",
-    "The football team won the championship after a thrilling final match.",
-    "Scientists published a breakthrough study on climate change effects.",
-    "The central bank raised interest rates to combat inflation.",
-    "A new artificial intelligence model can generate realistic images.",
-    "The basketball player scored 50 points in last night's game.",
-    "Researchers found a potential new treatment for Alzheimer's disease.",
-    "The government announced new economic stimulus measures.",
-    "The latest laptop comes with a powerful M3 chip and 24GB RAM.",
-    "The tennis player won her fifth Grand Slam title.",
-    "A new study reveals the impact of microplastics on ocean ecosystems.",
-    "Cryptocurrency prices surged after new regulatory clarity.",
-    "Virtual reality headsets are becoming more affordable for consumers.",
-    "The soccer World Cup drew millions of viewers worldwide.",
-    "Marine biologists discovered a new coral reef in the Pacific Ocean.",
-    "The tech company reported record quarterly earnings.",
-    "Wearable health devices can now monitor blood glucose levels.",
-    "The Olympic games featured several new world records.",
-    "Astronomers detected a potentially habitable exoplanet.",
-]
+
+AG_NEWS_LABEL_MAP = {0: "World", 1: "Sports", 2: "Business", 3: "Sci/Tech"}
+
+
+def _build_topic_from_ag_news(n_samples: int = 1000) -> tuple[list[str], list[str]]:
+    """
+    Build a topic classification dataset from the AG News benchmark (test split).
+
+    AG News has 4 classes: World, Sports, Business, Sci/Tech.
+    We take `n_samples` articles, shuffle deterministically, and return
+    (texts, gold_labels).
+    """
+    ds = load_dataset("fancyzhx/ag_news", split="test")
+
+    texts: list[str] = []
+    labels: list[str] = []
+    for ex in ds:
+        texts.append(ex["text"])
+        labels.append(AG_NEWS_LABEL_MAP[ex["label"]])
+
+    # Deterministic shuffle then take first n_samples
+    indices = list(range(len(texts)))
+    DATASET_RNG.shuffle(indices)
+    indices = indices[:n_samples]
+
+    return [texts[i] for i in indices], [labels[i] for i in indices]
+
+
+try:
+    topic_data, topic_ground_truth = _build_topic_from_ag_news(1000)
+except Exception as e:
+    print("ERROR: failed to build topic_data from AG News (fancyzhx/ag_news):", e)
+    raise
 
 # ============================================================
-# 5. Language Identification Dataset (20 samples)
+# 5. Language Identification Dataset (papluca/language-identification, 1000 samples)
 # ============================================================
-language_data = [
-    "Hello, how are you today?",
-    "Bonjour, comment allez-vous?",
-    "Hola, ¿cómo estás?",
-    "Guten Tag, wie geht es Ihnen?",
-    "Ciao, come stai?",
-    "The weather is beautiful today.",
-    "Je suis très content de vous voir.",
-    "Me gusta mucho la comida española.",
-    "Ich lerne Deutsch seit zwei Jahren.",
-    "La pizza italiana è la migliore del mondo.",
-    "This is a simple English sentence.",
-    "Les enfants jouent dans le parc.",
-    "El gato está durmiendo en el sofá.",
-    "Das Buch ist sehr interessant.",
-    "Mi piace viaggiare in Italia.",
-    "Programming is fun and challenging.",
-    "La vie est belle quand on est heureux.",
-    "Necesito comprar leche y pan.",
-    "Die Musik ist wunderschön.",
-    "Roma è una città bellissima.",
-]
 
-language_ground_truth = [
-    "English", "French", "Spanish", "German", "Italian",
-    "English", "French", "Spanish", "German", "Italian",
-    "English", "French", "Spanish", "German", "Italian",
-    "English", "French", "Spanish", "German", "Italian",
-]
+LANGID_CODE_TO_NAME = {
+    "ar": "Arabic", "bg": "Bulgarian", "de": "German", "el": "Greek",
+    "en": "English", "es": "Spanish", "fr": "French", "hi": "Hindi",
+    "it": "Italian", "ja": "Japanese", "nl": "Dutch", "pl": "Polish",
+    "pt": "Portuguese", "ru": "Russian", "sw": "Swahili", "th": "Thai",
+    "tr": "Turkish", "ur": "Urdu", "vi": "Vietnamese", "zh": "Chinese",
+}
+
+
+def _build_language_identification(n_samples: int = 1000) -> tuple[list[str], list[str]]:
+    """
+    Build a language identification dataset from the papluca/language-identification
+    benchmark (test split, 10 000 samples across 20 languages).
+
+    Returns (texts, gold_language_names).
+    """
+    ds = load_dataset("papluca/language-identification", split="test")
+
+    texts: list[str] = []
+    labels: list[str] = []
+    for ex in ds:
+        texts.append(ex["text"])
+        labels.append(LANGID_CODE_TO_NAME.get(ex["labels"], ex["labels"]))
+
+    indices = list(range(len(texts)))
+    DATASET_RNG.shuffle(indices)
+    indices = indices[:n_samples]
+
+    return [texts[i] for i in indices], [labels[i] for i in indices]
+
+
+try:
+    language_data, language_ground_truth = _build_language_identification(1000)
+except Exception as e:
+    print("ERROR: failed to build language_data from papluca/language-identification:", e)
+    raise

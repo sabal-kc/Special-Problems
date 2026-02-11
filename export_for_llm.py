@@ -11,7 +11,8 @@ import csv
 
 from custom_datasets import (
     sentiment_data, ner_data, pos_data,
-    topic_data, language_data,
+    topic_data, topic_ground_truth,
+    language_data, language_ground_truth,
 )
 
 os.makedirs("llm_input", exist_ok=True)
@@ -38,23 +39,23 @@ def write_simple_csv(path, rows):
 #     [(i + 1, t) for i, t in enumerate(ner_data)],
 # )
 
-# 3. POS Tagging
+# # 3. POS Tagging
+# write_simple_csv(
+#     "llm_input/pos_input.csv",
+#     [(i + 1, t) for i, t in enumerate(pos_data)],
+# )
+
+# 4. Topic Modelling
 write_simple_csv(
-    "llm_input/pos_input.csv",
-    [(i + 1, t) for i, t in enumerate(pos_data)],
+    "llm_input/topic_input.csv",
+    [(i + 1, t) for i, t in enumerate(topic_data)],
 )
 
-# # 4. Topic Modelling
-# write_simple_csv(
-#     "llm_input/topic_input.csv",
-#     [(i + 1, t) for i, t in enumerate(topic_data)],
-# )
-
-# # 5. Language Identification
-# write_simple_csv(
-#     "llm_input/language_input.csv",
-#     [(i + 1, t) for i, t in enumerate(language_data)],
-# )
+# 5. Language Identification
+write_simple_csv(
+    "llm_input/language_input.csv",
+    [(i + 1, t) for i, t in enumerate(language_data)],
+)
 
 print("\nAll input CSVs saved to llm_input/ folder.")
 print("Open prompts.md for the prompts to use in Google AI Studio.")
