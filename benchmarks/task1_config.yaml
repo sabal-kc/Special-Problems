@@ -1,0 +1,25 @@
+run:
+  # systems: [traditional, gemini]   # or [traditional] or [gemini] to run only one
+  systems: [traditional, gemini]
+  batch_size: 100
+  warm_runs: 1
+  timeout_seconds: 30
+  retry:
+    max_attempts: 2
+    backoff_seconds: 1.0
+
+client:
+  sentiment_csv_path: llm_input/sentiment_input.csv
+  output_dir: results/latency_cost
+
+traditional:
+  # endpoint: http://REPLACE_WITH_EC2_HOST:8000/v1/sentiment
+  endpoint: http://127.0.0.1:8000/v1/sentiment
+
+gemini:
+  model: gemini-2.5-flash
+  endpoint_template: https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent
+  api_key_env: GEMINI_API_KEY
+
+pricing:
+  file: benchmarks/pricing.yaml

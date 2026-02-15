@@ -1,0 +1,23 @@
+pricing_snapshot:
+  date: "2026-02-14"
+  source: "Manual benchmark config. Replace Gemini and EC2 prices with your current rates before final reporting."
+
+currency: USD
+
+traditional:
+  ec2_instance_type: t3.micro
+  ec2_region: us-east-1
+  ec2_hourly_usd: 0.0104
+
+gemini:
+  model: gemini-2.5-pro
+  input_token_usd: 0.00000125
+  output_token_usd: 0.00000500
+
+traffic_scenarios:
+  - name: low
+    requests_per_hour: 100
+  - name: medium
+    requests_per_hour: 1000
+  - name: high
+    requests_per_hour: 10000
