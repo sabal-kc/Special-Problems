@@ -20,7 +20,6 @@ import os
 import statistics
 import time
 import urllib.error
-import urllib.parse
 import urllib.request
 import uuid
 from pathlib import Path
@@ -123,28 +122,71 @@ def invoke_with_retry(
                 break
             time.sleep(backoff_seconds)
         except Exception as exc:  # pragma: no cover
+            # Retry quota/transient backend issues surfaced by SDK exceptions.
+            msg = str(exc)
+            is_retryable = any(
+                token in msg
+                for token in (
+                    "429",
+                    "500",
+                    "502",
+                    "503",
+                    "504",
+                    "RESOURCE_EXHAUSTED",
+                    "UNAVAILABLE",
+                    "DEADLINE_EXCEEDED",
+                )
+            )
             last_error = f"{type(exc).__name__}: {exc}"
-            break
+            if not is_retryable or attempt == max_attempts:
+                break
+            time.sleep(backoff_seconds)
     raise RuntimeError(last_error or "Unknown invocation error")
 
 
-def build_gemini_prompt(texts: list[str]) -> str:
-    """Build prompt matching prompts.md Task 1 format (CSV input/output)."""
+def build_gemini_csv_input(texts: list[str]) -> str:
+    """Build CSV input payload for Gemini."""
     buf = io.StringIO()
     writer = csv.DictWriter(buf, fieldnames=["id", "text"])
     writer.writeheader()
     for i, t in enumerate(texts, start=1):
         clean = t.replace("\n", " ").strip()
         writer.writerow({"id": i, "text": clean})
-    csv_data = buf.getvalue().strip()
-    return (
-        "You are a sentiment analysis expert. I will give you a CSV with columns \"id\" and \"text\".\n"
-        "For each row, classify the sentiment as exactly one of: positive, negative.\n\n"
-        "Return your answer as a CSV with exactly two columns: id, label\n"
-        "Do NOT include any explanation or extra text. Only output the CSV (with header row).\n\n"
-        "Here is the data:\n\n"
-        f"{csv_data}"
-    )
+    return buf.getvalue().strip()
+
+
+def _strip_markdown_code_fence(text: str) -> str:
+    """Handle occasional fenced CSV output: ```csv ... ```."""
+    t = text.strip()
+    if not t.startswith("```"):
+        return t
+    lines = t.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].strip() == "```":
+        lines = lines[:-1]
+    return "\n".join(lines).strip()
+
+
+def _usage_value(usage_meta: Any, snake_key: str, camel_key: str) -> int | None:
+    if usage_meta is None:
+        return None
+
+    value = None
+    if isinstance(usage_meta, dict):
+        value = usage_meta.get(snake_key, usage_meta.get(camel_key))
+    else:
+        value = getattr(usage_meta, snake_key, None)
+        if value is None:
+            value = getattr(usage_meta, camel_key, None)
+        if value is None and hasattr(usage_meta, "to_dict"):
+            maybe_dict = usage_meta.to_dict()
+            if isinstance(maybe_dict, dict):
+                value = maybe_dict.get(snake_key, maybe_dict.get(camel_key))
+
+    if value is None:
+        return None
+    return int(value)
 
 
 def call_traditional(
@@ -185,44 +227,58 @@ def call_gemini(
     texts: list[str],
     timeout_s: float,
 ) -> dict[str, Any]:
-    endpoint = endpoint_template.format(model=model)
-    prompt = build_gemini_prompt(texts)
-    url = f"{endpoint}?{urllib.parse.urlencode({'key': api_key})}"
+    try:
+        from google import genai
+        from google.genai import types
+    except ImportError as exc:  # pragma: no cover
+        raise RuntimeError(
+            "Missing dependency: google-genai. Install with `pip install -r requirements.txt`."
+        ) from exc
 
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0},
-    }
-    status, data = post_json(url, payload, timeout_s)
-    if status != 200:
-        raise RuntimeError(f"Gemini returned status {status}")
+    # Kept for backward config compatibility; SDK builds endpoint internally.
+    _ = endpoint_template
+    _ = timeout_s
 
-    candidates = data.get("candidates")
-    if not isinstance(candidates, list) or not candidates:
-        raise ValueError("Gemini response missing candidates")
+    system_instruction = (
+        "You are a sentiment analysis expert. I will give you a CSV with columns \"id\" and \"text\".\n"
+        "For each row, classify the sentiment as exactly one of: positive, negative.\n\n"
+        "Return your answer as a CSV with exactly two columns: id, label\n"
+        "Do NOT include any explanation or extra text. Only output the CSV (with header row).\n\n"
+        "Here is the data:"
+    )
+    csv_input = build_gemini_csv_input(texts)
 
-    first = candidates[0]
-    content = first.get("content", {}) if isinstance(first, dict) else {}
-    parts = content.get("parts", []) if isinstance(content, dict) else []
-    if not isinstance(parts, list) or not parts:
-        raise ValueError("Gemini response missing content parts")
+    client = genai.Client(api_key=api_key)
+    contents = [
+        types.Content(
+            role="user",
+            parts=[types.Part.from_text(text=csv_input)],
+        )
+    ]
+    generate_content_config = types.GenerateContentConfig(
+        thinking_config=types.ThinkingConfig(thinking_level="LOW"),
+        system_instruction=[types.Part.from_text(text=system_instruction)],
+    )
 
-    # With thinking mode, parts[0] is thinking; the last part is the actual answer.
-    text_blob = None
-    for p in reversed(parts):
-        if isinstance(p, dict) and p.get("text"):
-            text_blob = p["text"]
-            break
-    if not isinstance(text_blob, str):
-        raise ValueError("Gemini response missing content parts with text")
+    usage_meta: Any = None
+    output_parts: list[str] = []
+    for chunk in client.models.generate_content_stream(
+        model=model,
+        contents=contents,
+        config=generate_content_config,
+    ):
+        if getattr(chunk, "text", None):
+            output_parts.append(str(chunk.text))
+        chunk_usage = getattr(chunk, "usage_metadata", None)
+        if chunk_usage is not None:
+            usage_meta = chunk_usage
+
+    text_blob = _strip_markdown_code_fence("".join(output_parts))
+    if not text_blob:
+        raise ValueError("Gemini response missing text output")
 
     # Parse CSV response (prompts.md format: id, label)
-    reader = csv.DictReader(
-        io.StringIO(text_blob.strip()),
-        fieldnames=["id", "label"],
-        restkey=None,
-    )
-    rows = list(reader)
+    rows = list(csv.DictReader(io.StringIO(text_blob.strip()), fieldnames=["id", "label"], restkey=None))
     id_to_label: dict[int, str] = {}
     for row in rows:
         if "id" in row and "label" in row:
@@ -240,16 +296,15 @@ def call_gemini(
             raise ValueError(f"Gemini output contains invalid sentiment label: {lbl!r}")
         labels.append(lbl)
 
-    usage = data.get("usageMetadata", {}) if isinstance(data, dict) else {}
-    input_tokens = usage.get("promptTokenCount")
-    output_tokens = usage.get("candidatesTokenCount")
+    input_tokens = _usage_value(usage_meta, "prompt_token_count", "promptTokenCount")
+    output_tokens = _usage_value(usage_meta, "candidates_token_count", "candidatesTokenCount")
 
     return {
         "labels": labels,
         "server_ms": None,
-        "input_tokens": int(input_tokens) if input_tokens is not None else None,
-        "output_tokens": int(output_tokens) if output_tokens is not None else None,
-        "http_status": status,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "http_status": 200,
     }
 
 

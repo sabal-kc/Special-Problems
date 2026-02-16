@@ -17,8 +17,17 @@ traditional:
   # endpoint: http://127.0.0.1:8000/v1/sentiment
   endpoint: http://54.242.38.69:8000/v1/sentiment
 
+sequential:
+  batch_sizes: [1, 10, 1000, 5000]
+  runs_per_batch: 3
+
+concurrent:
+  batch_size: 5000
+  concurrency_levels: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
+  duration_seconds: 60
+
 gemini:
-  model: gemini-2.5-flash
+  model: gemini-3-pro-preview
   endpoint_template: https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent
   api_key_env: GEMINI_API_KEY
 

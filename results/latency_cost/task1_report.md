@@ -1,14 +1,14 @@
 # Task 1 E2E Benchmark Report
 
-- Run ID: `1bf31599-d308-4bd6-a0da-bac9da53344a`
-- Generated (UTC): `2026-02-16T02:31:25+00:00`
+- Run ID: `320ad169-fe80-46e7-9d01-1632cd224c94`
+- Generated (UTC): `2026-02-16T03:58:31+00:00`
 - Measurement mode: End-to-end from local client
 - Workload: fixed batch of 1000 sentiment samples
 
 ## Run Configuration
 
 - Traditional endpoint: `http://54.242.38.69:8000/v1/sentiment`
-- Gemini model: `gemini-2.5-flash`
+- Gemini model: `gemini-3-pro-preview`
 - Warm runs per system: `10`
 - Timeout per call: `30s`
 
@@ -23,21 +23,21 @@
 
 | System | Success Rate | E2E ms |
 |---|---:|---:|
-| Traditional | 100.00% | 326.3538 |
-| Gemini | -% | - |
+| Traditional | 100.00% | 365.5090 |
+| Gemini | 0.00% | - |
 
 ## Warm Latency and Throughput (10 runs)
 
 | System | Success Rate | p50 ms | p95 ms | Mean samples/sec | Traditional server ms (mean) |
 |---|---:|---:|---:|---:|---:|
-| Traditional | 100.00% | 348.7936 | 470.0112 | 2795.6661 | 101.9925 |
-| Gemini | -% | - | - | - | - |
+| Traditional | 100.00% | 355.9460 | 400.2719 | 2851.8961 | 101.1196 |
+| Gemini | 0.00% | - | - | - | - |
 
 ## Cost Per Request (warm mean)
 
 | System | API USD | Infra USD | Total USD |
 |---|---:|---:|---:|
-| Traditional | 0.00000000 | 0.00000106 | 0.00000106 |
+| Traditional | 0.00000000 | 0.00000102 | 0.00000102 |
 | Gemini | - | - | - |
 
 ## Decision Table (hourly cost interpretation)

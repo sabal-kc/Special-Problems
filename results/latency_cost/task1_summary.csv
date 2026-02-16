@@ -1,3 +1,5 @@
 system,phase,runs,success_runs,success_rate_pct,e2e_ms_mean,e2e_ms_p50,e2e_ms_p95,e2e_ms_min,e2e_ms_max,samples_per_sec_mean,server_ms_mean,api_cost_usd_mean,infra_cost_usd_mean,total_cost_usd_mean
-traditional,cold,1,1,100.0,326.3538,326.3538,326.3538,326.3538,326.3538,3064.1597,102.768,0.0,9.4e-07,9.4e-07
-traditional,warm,10,10,100.0,365.0822,348.7936,470.0112,310.5841,493.3648,2795.6661,101.9925,0.0,1.06e-06,1.06e-06
+gemini,cold,1,0,0.0,,,,,,,,,,
+gemini,warm,10,0,0.0,,,,,,,,,,
+traditional,cold,1,1,100.0,365.509,365.509,365.509,365.509,365.509,2735.9104,108.8502,0.0,1.06e-06,1.06e-06
+traditional,warm,10,10,100.0,353.4813,355.946,400.2719,304.8001,429.967,2851.8961,101.1196,0.0,1.02e-06,1.02e-06

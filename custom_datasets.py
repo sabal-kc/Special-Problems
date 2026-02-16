@@ -19,7 +19,7 @@ DATASET_SEED = 42
 DATASET_RNG = random.Random(DATASET_SEED)
 
 
-def _build_sentiment_from_sst2(n_per_class: int = 50) -> tuple[list[str], list[str]]:
+def _build_sentiment_from_sst2(n_per_class: int = 5000) -> tuple[list[str], list[str]]:
     """
     Build a small sentiment dataset from the SST‑2 benchmark.
 
