@@ -28,10 +28,10 @@ def write_simple_csv(path, rows):
 
 
 # 1. Sentiment Analysis
-# write_simple_csv(
-#     "llm_input/sentiment_input.csv",
-#     [(i + 1, t) for i, t in enumerate(sentiment_data)],
-# )
+write_simple_csv(
+    "llm_input/sentiment_input_min.csv",
+    [(i + 1, t) for i, t in enumerate(sentiment_data)],
+)
 
 # # 2. NER
 # write_simple_csv(
@@ -46,16 +46,16 @@ def write_simple_csv(path, rows):
 # )
 
 # 4. Topic Modelling
-write_simple_csv(
-    "llm_input/topic_input.csv",
-    [(i + 1, t) for i, t in enumerate(topic_data)],
-)
+# write_simple_csv(
+#     "llm_input/topic_input.csv",
+#     [(i + 1, t) for i, t in enumerate(topic_data)],
+# )
 
-# 5. Language Identification
-write_simple_csv(
-    "llm_input/language_input.csv",
-    [(i + 1, t) for i, t in enumerate(language_data)],
-)
+# # 5. Language Identification
+# write_simple_csv(
+#     "llm_input/language_input.csv",
+#     [(i + 1, t) for i, t in enumerate(language_data)],
+# )
 
 print("\nAll input CSVs saved to llm_input/ folder.")
 print("Open prompts.md for the prompts to use in Google AI Studio.")
