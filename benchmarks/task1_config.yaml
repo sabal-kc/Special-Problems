@@ -22,7 +22,7 @@ sequential:
   runs_per_batch: 3
 
 concurrent:
-  batch_size: 5000
+  batch_size: 1000
   concurrency_levels: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
   duration_seconds: 60
 
