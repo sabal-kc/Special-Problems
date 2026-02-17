@@ -28,22 +28,22 @@ def write_simple_csv(path, rows):
 
 
 # Build 1, 10, 1000, 5000 rows of sentiment data
-write_simple_csv(
-    "llm_input/sentiment_input_1.csv",
-    [(i + 1, t) for i, t in enumerate(sentiment_data[:1])],
-)
-write_simple_csv(
-    "llm_input/sentiment_input_10.csv",
-    [(i + 1, t) for i, t in enumerate(sentiment_data[:10])],
-)
-write_simple_csv(
-    "llm_input/sentiment_input_1000.csv",
-    [(i + 1, t) for i, t in enumerate(sentiment_data[:1000])],
-)
-write_simple_csv(
-    "llm_input/sentiment_input_5000.csv",
-    [(i + 1, t) for i, t in enumerate(sentiment_data[:5000])],
-)
+# write_simple_csv(
+#     "llm_input/sentiment_input_1.csv",
+#     [(i + 1, t) for i, t in enumerate(sentiment_data[:1])],
+# )
+# write_simple_csv(
+#     "llm_input/sentiment_input_10.csv",
+#     [(i + 1, t) for i, t in enumerate(sentiment_data[:10])],
+# )
+# write_simple_csv(
+#     "llm_input/sentiment_input_1000.csv",
+#     [(i + 1, t) for i, t in enumerate(sentiment_data[:1000])],
+# )
+# write_simple_csv(
+#     "llm_input/sentiment_input_5000.csv",
+#     [(i + 1, t) for i, t in enumerate(sentiment_data[:5000])],
+# )
 
 
 # # 1. Sentiment Analysis

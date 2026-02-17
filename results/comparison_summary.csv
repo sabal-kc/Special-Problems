@@ -1,6 +1,6 @@
 Task,Metric,Match,Total,Percentage
 Sentiment Analysis,Label Agreement,12899,20000,64.5%
-NER,Entity Exact Match,932,2422,38.5%
+NER,Entity Exact Match,1044,1491,70.0%
 POS Tagging,Token Tag Agreement,11283,12610,89.5%
 Topic (Traditional),Accuracy vs Ground Truth,885,1000,88.5%
 Topic (LLM),Accuracy vs Ground Truth,885,1000,88.5%
