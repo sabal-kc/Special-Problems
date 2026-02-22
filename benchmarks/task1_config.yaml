@@ -19,7 +19,7 @@ traditional:
 
 sequential:
   batch_sizes: [1, 10, 1000, 5000]
-  runs_per_batch: 3
+  runs_per_batch: 10
 
 concurrent:
   batch_size: 1000
