@@ -64,13 +64,22 @@ else
   curl -fsSL https://ollama.com/install.sh | sh
 fi
 
+echo "Configuring Ollama parallelism (OLLAMA_NUM_PARALLEL=2)..."
+sudo mkdir -p /etc/systemd/system/ollama.service.d
+sudo tee /etc/systemd/system/ollama.service.d/override.conf >/dev/null <<EOF
+[Service]
+Environment=OLLAMA_NUM_PARALLEL=2
+EOF
+
 echo "Ensuring Ollama service is running..."
+sudo systemctl daemon-reload
 if systemctl is-active --quiet ollama 2>/dev/null; then
-  echo "Ollama service already running."
+  echo "Ollama service already running, restarting to apply configuration..."
+  sudo systemctl restart ollama 2>/dev/null || OLLAMA_NUM_PARALLEL=2 ollama serve &
 else
-  sudo systemctl start ollama 2>/dev/null || ollama serve &
-  sleep 3
+  sudo systemctl start ollama 2>/dev/null || OLLAMA_NUM_PARALLEL=2 ollama serve &
 fi
+sleep 3
 
 echo "Pulling model: ${OLLAMA_MODEL} (may take a while)..."
 ollama pull "${OLLAMA_MODEL}"

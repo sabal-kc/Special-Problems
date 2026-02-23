@@ -15,7 +15,7 @@ client:
 traditional:
   # endpoint: http://REPLACE_WITH_EC2_HOST:8000/v1/sentiment
   # endpoint: http://127.0.0.1:8000/v1/sentiment
-  endpoint: http://54.87.171.9:8000/v1/sentiment
+  endpoint: http://54.172.131.162:8000/v1/sentiment
 
 sequential:
   batch_sizes: [1, 5, 50]
@@ -23,8 +23,8 @@ sequential:
 
 concurrent:
   batch_size: 5
-  concurrency_levels: [1, 2, 4, 8, 16, 32]
-  duration_seconds: 60
+  concurrency_levels: [1, 2, 4, 8, 16, 32, 64, 128]
+  duration_seconds: 30
 
 gemini:
   model: gemini-3-pro-preview

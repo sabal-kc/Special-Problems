@@ -280,6 +280,7 @@ def main() -> None:
     for batch_size in batch_sizes:
         texts = load_text_batch(input_csv, batch_size=batch_size)
         for run_index in range(1, runs_per_batch + 1):
+            print(f"Running batch size {batch_size} run {run_index} of {runs_per_batch}...")
             result = run_request(
                 endpoint=endpoint,
                 texts=texts,

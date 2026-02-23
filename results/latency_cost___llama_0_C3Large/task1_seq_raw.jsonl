@@ -1,0 +1,9 @@
+{"ts_utc": "2026-02-23T20:53:44+00:00", "phase": "sequential", "batch_size": 1, "run_index": 1, "e2e_ms": 4341.2955, "server_ms": 4181.0034, "samples_per_sec": 0.2303, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:53:45+00:00", "phase": "sequential", "batch_size": 1, "run_index": 2, "e2e_ms": 1429.574, "server_ms": 1261.7767, "samples_per_sec": 0.6995, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:53:47+00:00", "phase": "sequential", "batch_size": 1, "run_index": 3, "e2e_ms": 1435.8323, "server_ms": 1255.8619, "samples_per_sec": 0.6965, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:53:52+00:00", "phase": "sequential", "batch_size": 5, "run_index": 1, "e2e_ms": 5934.3381, "server_ms": 5774.3463, "samples_per_sec": 0.8426, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:53:54+00:00", "phase": "sequential", "batch_size": 5, "run_index": 2, "e2e_ms": 2049.8427, "server_ms": 1941.8101, "samples_per_sec": 2.4392, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:53:57+00:00", "phase": "sequential", "batch_size": 5, "run_index": 3, "e2e_ms": 2048.9457, "server_ms": 1929.2287, "samples_per_sec": 2.4403, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:54:49+00:00", "phase": "sequential", "batch_size": 50, "run_index": 1, "e2e_ms": 52078.5371, "server_ms": 51971.7358, "samples_per_sec": 0.9601, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:55:09+00:00", "phase": "sequential", "batch_size": 50, "run_index": 2, "e2e_ms": 20016.7911, "server_ms": 19926.8076, "samples_per_sec": 2.4979, "success": true, "http_status": 200, "error": ""}
+{"ts_utc": "2026-02-23T20:55:29+00:00", "phase": "sequential", "batch_size": 50, "run_index": 3, "e2e_ms": 20096.2921, "server_ms": 20011.4822, "samples_per_sec": 2.488, "success": true, "http_status": 200, "error": ""}
