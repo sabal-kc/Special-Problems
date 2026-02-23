@@ -48,6 +48,7 @@ def _debug(msg: str, *args: Any) -> None:
 # MODEL_NAME = "llama3.2:1b-instruct-q5_K_M"
 # MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
 MODEL_NAME = "llama3.2:3b-instruct-q3_K_S"
+OLLAMA_TIMEOUT_SEC = 480  # 8 minutes for long inference
 
 SYSTEM_PROMPT = """Classify sentiment for each CSV row. Output ONLY a JSON object.
 Keys: "0", "1", "2", ... (one per row, in order). Values: "positive" or "negative" only.
@@ -161,6 +162,9 @@ class SentimentRequestHandler(BaseHTTPRequestHandler):
         if self.path != "/v1/sentiment":
             self._send_json(404, _json_error("Not found"))
             return
+
+        # Endpoint timeout: 8 minutes for long inference
+        self.request.settimeout(OLLAMA_TIMEOUT_SEC)
 
         content_length_raw = self.headers.get("Content-Length")
         if not content_length_raw:
