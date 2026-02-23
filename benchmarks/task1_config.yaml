@@ -23,7 +23,7 @@ sequential:
 
 concurrent:
   batch_size: 5
-  concurrency_levels: [1, 2, 4]
+  concurrency_levels: [1, 2, 4, 8, 16, 32]
   duration_seconds: 60
 
 gemini:
