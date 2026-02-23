@@ -27,7 +27,6 @@ import argparse
 import csv
 import io
 import json
-import re
 import time
 import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -35,18 +34,31 @@ from typing import Any
 
 import ollama
 
+DEBUG = False  # Set True for local development to print debug logs
+
+
+def _debug(msg: str, *args: Any) -> None:
+    if DEBUG:
+        print(msg % args if args else msg)
+
 # MODEL_NAME = "llama3.2:1b-instruct-q4_K_M"
-MODEL_NAME = "llama3.2:1b-instruct-q2_K"
+# MODEL_NAME = "llama3.2:1b-instruct-q2_K"
+# MODEL_NAME = "llama3.2:1b-instruct-q5_K_M"
+# MODEL_NAME = "llama3.2:1b"
+# MODEL_NAME = "llama3.2:1b-instruct-q5_K_M"
+# MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
+MODEL_NAME = "llama3.2:3b-instruct-q3_K_S"
 
-SENTIMENT_PROMPT = """You are a sentiment analysis expert. I will give you a CSV with columns "id" and "text".
-For each row, classify the sentiment as exactly one of: positive, negative.
+SYSTEM_PROMPT = """Classify sentiment for each CSV row. Output ONLY a JSON object.
+Keys: "0", "1", "2", ... (one per row, in order). Values: "positive" or "negative" only.
+Example for 3 rows: {"0":"positive","1":"negative","2":"positive"}
+No other text. No neutral. No explanation."""
 
-Return your answer as a CSV with exactly two columns: id, label
-Do NOT include any explanation or extra text. Only output the CSV (with header row).
+USER_PROMPT_TEMPLATE = """Here is the data:
 
-Here is the data:
+{input_csv}
 
-{input_csv}"""
+Respond with a JSON object. Keys must be "0" through "{max_id}" (one per row). Values: "positive" or "negative" only."""
 
 
 class OllamaSentimentService:
@@ -54,6 +66,7 @@ class OllamaSentimentService:
         pass
 
     def classify(self, texts: list[str]) -> list[dict[str, Any]]:
+        _debug("[classify] start, n_texts=%d", len(texts))
         if not texts:
             return []
 
@@ -65,72 +78,55 @@ class OllamaSentimentService:
         for idx, text in rows:
             writer.writerow([idx, text])
         input_csv = buf.getvalue()
+        max_id = len(texts) - 1
 
-        prompt = SENTIMENT_PROMPT.format(input_csv=input_csv)
+        prompt = USER_PROMPT_TEMPLATE.format(input_csv=input_csv, max_id=max_id)
+        _debug("[classify] calling ollama.chat, prompt_len=%d", len(prompt))
+        _debug("system prompt: %s", SYSTEM_PROMPT)
+        _debug("prompt: %s", prompt)
 
         response = ollama.chat(
             model=MODEL_NAME,
-            messages=[{"role": "user", "content": prompt}],
-            options={"temperature": 0, "top_p": 0.1},
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            format="json",
+            options={"temperature": 0, "top_p": 0.2},
         )
         content = response.get("message", {}).get("content", "") or ""
-
+        _debug("[classify] ollama.chat returned, content_len=%d", len(content))
+        _debug("%s", content)
         predictions = self._parse_response(content, len(texts))
+        _debug("[classify] done, n_predictions=%d", len(predictions))
         return predictions
 
     def _parse_response(self, content: str, expected_count: int) -> list[dict[str, Any]]:
-        predictions: list[dict[str, Any]] = []
-        id_to_result: dict[int, str] = {}
+        id_to_result: dict[int, dict[str, Any]] = {}
 
-        # Extract CSV block (may be wrapped in markdown or extra text)
         content = content.strip()
-        # Try to find CSV block
-        csv_match = re.search(r"id\s*,\s*label\s*\n(.*?)(?:\n\n|$)", content, re.DOTALL | re.IGNORECASE)
-        if csv_match:
-            csv_text = "id,label\n" + csv_match.group(1).strip()
-        elif "id" in content.lower() and "label" in content.lower():
-            lines = content.splitlines()
-            header_idx = -1
-            for i, line in enumerate(lines):
-                if re.match(r"id\s*,\s*label", line, re.IGNORECASE):
-                    header_idx = i
-                    break
-            if header_idx >= 0:
-                csv_text = "\n".join(lines[header_idx:])
-            else:
-                csv_text = content
-        else:
-            csv_text = content
+        data = json.loads(content)
 
-        try:
-            reader = csv.DictReader(io.StringIO(csv_text))
-            for row in reader:
-                id_str = row.get("id", "").strip()
-                label_raw = row.get("label", "").strip().lower()
+        if isinstance(data, dict):
+            for key, val in data.items():
                 try:
-                    idx = int(id_str)
-                except ValueError:
+                    idx = int(key)
+                except (ValueError, TypeError):
                     continue
-                if "pos" in label_raw or label_raw == "positive":
-                    label = "positive"
-                    score = 0.99
-                elif "neg" in label_raw or label_raw == "negative":
-                    label = "negative"
-                    score = -0.99
-                else:
-                    label = "positive"
-                    score = 0.0
+                if idx < 0 or idx >= expected_count:
+                    continue
+                raw = str(val).strip().lower()
+                label = "negative" if ("neg" in raw or raw == "negative") else "positive"
+                score = -0.99 if label == "negative" else 0.99
                 id_to_result[idx] = {"label": label, "score": round(score, 4)}
-        except Exception:
-            pass
 
+        predictions = []
         for i in range(expected_count):
             if i in id_to_result:
                 predictions.append(id_to_result[i])
             else:
                 predictions.append({"label": "positive", "score": 0.0})
 
-        print(predictions)
         return predictions
 
 
@@ -199,13 +195,16 @@ class SentimentRequestHandler(BaseHTTPRequestHandler):
             self._send_json(400, _json_error("'texts' must contain only strings"))
             return
 
+        _debug("[handler] POST /v1/sentiment request_id=%s n_texts=%d", request_id, len(texts))
         t0 = time.perf_counter()
         try:
             predictions = SERVICE.classify(texts)
         except Exception as exc:
+            _debug("[handler] classify raised: %s", exc)
             self._send_json(500, _json_error(f"Ollama error: {exc}"))
             return
         server_ms = (time.perf_counter() - t0) * 1000.0
+        _debug("[handler] classify done in %.2f ms, sending response", server_ms)
 
         response = {
             "request_id": request_id,
