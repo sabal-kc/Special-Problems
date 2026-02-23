@@ -3,7 +3,7 @@ run:
   systems: [traditional]
   batch_size: 1000
   warm_runs: 10
-  timeout_seconds: 30
+  timeout_seconds: 300
   retry:
     max_attempts: 2
     backoff_seconds: 1.0
