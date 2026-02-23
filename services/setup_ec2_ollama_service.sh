@@ -55,7 +55,7 @@ if [[ ! -f "${REQ_FILE}" ]]; then
 fi
 
 echo "Installing OS packages..."
-sudo dnf install -y python3 python3-pip curl
+sudo dnf install -y python3 python3-pip
 
 echo "Installing Ollama..."
 if command -v ollama &>/dev/null; then
