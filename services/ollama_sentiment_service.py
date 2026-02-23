@@ -47,13 +47,13 @@ def _debug(msg: str, *args: Any) -> None:
 # MODEL_NAME = "llama3.2:1b"
 # MODEL_NAME = "llama3.2:1b-instruct-q5_K_M"
 # MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
-MODEL_NAME = "llama3.2:3b-instruct-q3_K_S"
+MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
 OLLAMA_TIMEOUT_SEC = 480  # 8 minutes for long inference
 
-SYSTEM_PROMPT = """Classify sentiment for each CSV row. Output ONLY a JSON object.
+SYSTEM_PROMPT = """You are a sentiment analysis expert. These are movie review sentences. Classify sentiment for each CSV row. Output ONLY a JSON object.
 Keys: "0", "1", "2", ... (one per row, in order). Values: "positive" or "negative" only.
 Example for 3 rows: {"0":"positive","1":"negative","2":"positive"}
-No other text. No neutral. No explanation."""
+Classify objectively; do not assume negative when unclear. No other text. No neutral. No explanation."""
 
 USER_PROMPT_TEMPLATE = """Here is the data:
 

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "text": "a little better than sorcerer 's stone .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 2,
+    "text": "looking for a return ticket to realism",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 3,
+    "text": "the shameless self-caricature of ` analyze this ' ( 1999 ) and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 4,
+    "text": "director paul cox 's unorthodox , abstract approach to visualizing nijinsky 's diaries is both stimulating and demanding .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 5,
+    "text": "stevens ' vibrant creative instincts",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 6,
+    "text": "inventiveness",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 7,
+    "text": "it was only made for teenage boys and wrestling fans",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 8,
+    "text": "intriguing and honorable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 9,
+    "text": ", thoroughly winning flight of revisionist fancy .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 10,
+    "text": "boasting some of the most poorly staged and lit action in memory , impostor is as close as you can get to an imitation movie .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 11,
+    "text": "and more entertaining , too .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 12,
+    "text": "not enough puff",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 13,
+    "text": "i spied with my little eye ... a mediocre collection of cookie-cutter action scenes and occasionally inspired dialogue bits",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 14,
+    "text": "disappoints",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 15,
+    "text": "namely , an archetypal desire to enjoy good trash every now and then .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 16,
+    "text": "nothing but an episode of smackdown",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 17,
+    "text": "something hip and transgressive",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 18,
+    "text": "entertainment adults can see without feeling embarrassed",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 19,
+    "text": "are infectious",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 20,
+    "text": "keeps this pretty watchable , and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 21,
+    "text": "feels as immediate as the latest news footage from gaza and , because of its heightened , well-shaped dramas , twice as powerful .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 22,
+    "text": "scant place for the viewer",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 23,
+    "text": "is visually ravishing , penetrating , impenetrable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 24,
+    "text": "absolute joy",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 25,
+    "text": "fans of sandler 's comic taste may find it uninteresting",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 26,
+    "text": "feels like three hours",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 27,
+    "text": "a pretty good team",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 28,
+    "text": "fifth beer-soaked film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 29,
+    "text": "genial is the conceit , this is one of those rare pictures that you root for throughout ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 30,
+    "text": "an affected malaise",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 31,
+    "text": "has created a beautiful canvas",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 32,
+    "text": "we do n't get paid enough to sit through crap like this .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 33,
+    "text": "has something serious to say about the ways in which extravagant chance can distort our perspective and throw us off the path of good sense .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 34,
+    "text": "will leave you with a smile on your face and a grumble in your stomach .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 35,
+    "text": "has all the values of a straight-to-video movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 36,
+    "text": "to make the formula feel fresh",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 37,
+    "text": "hackneyed story",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 38,
+    "text": "to make up for the ones that do n't come off",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 39,
+    "text": "saddled with an unwieldy cast of characters and angles , but the payoff is powerful and revelatory",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 40,
+    "text": "play out realistically if not always fairly .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 41,
+    "text": "winning shot",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 42,
+    "text": "incredibly layered and stylistic film",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 43,
+    "text": "laugh-a-minute crowd pleaser",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 44,
+    "text": "sometimes improbable story",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 45,
+    "text": "ruined by amateurish writing and acting ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 46,
+    "text": "witty dialogue and inventive moments",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 47,
+    "text": "loves",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 48,
+    "text": "deserves an oscar nomination .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 49,
+    "text": "about movie love",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 50,
+    "text": "has merit and",
+    "label": "positive",
+    "score": 0.99
+  }
+]

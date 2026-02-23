@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "text": "a little better than sorcerer 's stone .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 2,
+    "text": "looking for a return ticket to realism",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 3,
+    "text": "the shameless self-caricature of ` analyze this ' ( 1999 ) and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 4,
+    "text": "director paul cox 's unorthodox , abstract approach to visualizing nijinsky 's diaries is both stimulating and demanding .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 5,
+    "text": "stevens ' vibrant creative instincts",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 6,
+    "text": "inventiveness",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 7,
+    "text": "it was only made for teenage boys and wrestling fans",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 8,
+    "text": "intriguing and honorable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 9,
+    "text": ", thoroughly winning flight of revisionist fancy .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 10,
+    "text": "boasting some of the most poorly staged and lit action in memory , impostor is as close as you can get to an imitation movie .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 11,
+    "text": "and more entertaining , too .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 12,
+    "text": "not enough puff",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 13,
+    "text": "i spied with my little eye ... a mediocre collection of cookie-cutter action scenes and occasionally inspired dialogue bits",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 14,
+    "text": "disappoints",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 15,
+    "text": "namely , an archetypal desire to enjoy good trash every now and then .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 16,
+    "text": "nothing but an episode of smackdown",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 17,
+    "text": "something hip and transgressive",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 18,
+    "text": "entertainment adults can see without feeling embarrassed",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 19,
+    "text": "are infectious",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 20,
+    "text": "keeps this pretty watchable , and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 21,
+    "text": "feels as immediate as the latest news footage from gaza and , because of its heightened , well-shaped dramas , twice as powerful .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 22,
+    "text": "scant place for the viewer",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 23,
+    "text": "is visually ravishing , penetrating , impenetrable",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 24,
+    "text": "absolute joy",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 25,
+    "text": "fans of sandler 's comic taste may find it uninteresting",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 26,
+    "text": "feels like three hours",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 27,
+    "text": "a pretty good team",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 28,
+    "text": "fifth beer-soaked film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 29,
+    "text": "genial is the conceit , this is one of those rare pictures that you root for throughout ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 30,
+    "text": "an affected malaise",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 31,
+    "text": "has created a beautiful canvas",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 32,
+    "text": "we do n't get paid enough to sit through crap like this .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 33,
+    "text": "has something serious to say about the ways in which extravagant chance can distort our perspective and throw us off the path of good sense .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 34,
+    "text": "will leave you with a smile on your face and a grumble in your stomach .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 35,
+    "text": "has all the values of a straight-to-video movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 36,
+    "text": "to make the formula feel fresh",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 37,
+    "text": "hackneyed story",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 38,
+    "text": "to make up for the ones that do n't come off",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 39,
+    "text": "saddled with an unwieldy cast of characters and angles , but the payoff is powerful and revelatory",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 40,
+    "text": "play out realistically if not always fairly .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 41,
+    "text": "winning shot",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 42,
+    "text": "incredibly layered and stylistic film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 43,
+    "text": "laugh-a-minute crowd pleaser",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 44,
+    "text": "sometimes improbable story",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 45,
+    "text": "ruined by amateurish writing and acting ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 46,
+    "text": "witty dialogue and inventive moments",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 47,
+    "text": "loves",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 48,
+    "text": "deserves an oscar nomination .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 49,
+    "text": "about movie love",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 50,
+    "text": "has merit and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 51,
+    "text": "'ve seen the hippie-turned-yuppie plot before",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 52,
+    "text": "the disadvantage of also looking cheap",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 53,
+    "text": "friendly kick",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 54,
+    "text": "undisciplined",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 55,
+    "text": ", vicious and absurd",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 56,
+    "text": "a generic bloodbath",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 57,
+    "text": "gently comic even as the film breaks your heart",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 58,
+    "text": "past his prime",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 59,
+    "text": "is the stuff that disney movies are made of .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 60,
+    "text": "leave the theater",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 61,
+    "text": "skip this dreck ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 62,
+    "text": ", the film retains ambiguities that make it well worth watching .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 63,
+    "text": "watch , giggle and get an adrenaline boost without feeling like you 've completely lowered your entertainment standards",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 64,
+    "text": "no art",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 65,
+    "text": "without any of its sense of fun or energy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 66,
+    "text": "it 's the type of film about growing up that we do n't see often enough these days : realistic , urgent , and not",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 67,
+    "text": "go down with a ship as leaky",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 68,
+    "text": "affable if not timeless , like mike raises some worthwhile themes while delivering a wholesome fantasy for kids .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 69,
+    "text": "often very funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 70,
+    "text": "every visual joke is milked , every set-up obvious and lengthy , every punchline predictable .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 71,
+    "text": "the film 's needlessly opaque intro",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 72,
+    "text": "works as pretty contagious fun .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 73,
+    "text": "so poorly plotted and scripted .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 74,
+    "text": "will just as likely make you weep",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 75,
+    "text": "with humor , warmth , and intelligence",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 76,
+    "text": "makes it all the more compelling .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 77,
+    "text": "little action , almost no suspense or believable tension , one-dimensional characters up",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 78,
+    "text": "in gross romanticization of the delusional personality type",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 79,
+    "text": "of better films",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 80,
+    "text": "ignore the reputation , and ignore the film .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 81,
+    "text": "nothing original in the way of slapstick sequences",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 82,
+    "text": "geriatric dirty harry",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 83,
+    "text": "than this mess",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 84,
+    "text": "tackled a meaty subject and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 85,
+    "text": "a slow death",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 86,
+    "text": "among the chief reasons brown sugar is such a sweet and sexy film",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 87,
+    "text": "who are trying to make their way through this tragedy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 88,
+    "text": "seems based on ugly ideas instead of ugly behavior , as happiness was ...",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 89,
+    "text": "adorable italian guys",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 90,
+    "text": "even witty",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 91,
+    "text": "the performances are often engaging",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 92,
+    "text": "a delightful , if minor , pastry",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 93,
+    "text": "glows with enthusiasm , sensuality and a conniving wit .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 94,
+    "text": "hero performances",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 95,
+    "text": "the pacing is often way off",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 96,
+    "text": "i 'm convinced i could keep a family of five blind , crippled , amish people alive in this situation better than these british soldiers do at keeping themselves kicking .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 97,
+    "text": "cult film",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 98,
+    "text": "remains utterly satisfied to remain the same throughout",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 99,
+    "text": "approaches his difficult , endless work with remarkable serenity and discipline .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 100,
+    "text": "a peculiar malaise",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 101,
+    "text": "gaping plot holes sink this ` sub '",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 102,
+    "text": "all the more poignant by the incessant use of cell phones",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 103,
+    "text": "pointless extremes",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 104,
+    "text": "there are laughs aplenty , and , as a bonus ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 105,
+    "text": "imaginative",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 106,
+    "text": "for pretentious arts majors",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 107,
+    "text": "a bottom-feeder sequel in the escape from new york series",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 108,
+    "text": "this is a heartfelt story ... it just is n't a very involving one .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 109,
+    "text": "wallowing in its characters ' frustrations",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 110,
+    "text": "( vainly , i think )",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 111,
+    "text": "fascinating , dark thriller",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 112,
+    "text": "rich and full",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 113,
+    "text": "virtually no understanding",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 114,
+    "text": "engaging and exciting narrative",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 115,
+    "text": "a simplistic narrative and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 116,
+    "text": "a watch that makes time go faster rather than",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 117,
+    "text": "a non-britney person might survive a screening with little harm done , except maybe for the last 15 minutes , which are as maudlin as any after-school special you can imagine .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 118,
+    "text": "a good music documentary",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 119,
+    "text": "it 's lost the politics and the social observation and become just another situation romance about a couple of saps stuck in an inarticulate screenplay .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 120,
+    "text": "manages never to grow boring ... which proves that rohmer still has a sense of his audience .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 121,
+    "text": "bad movie .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 122,
+    "text": "the script has less spice than a rat burger and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 123,
+    "text": "the new film is a lame kiddie flick",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 124,
+    "text": "made to be jaglomized is the cannes film festival , the annual riviera spree of flesh , buzz , blab and money .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 125,
+    "text": "the expressive power",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 126,
+    "text": "empathy and pity fogging up the screen ...",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 127,
+    "text": "deemed important enough to make a film in which someone has to be hired to portray richard dawson",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 128,
+    "text": "the filmmaker 's extraordinary access to massoud , whose charm , cultivation and devotion to his people are readily apparent",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 129,
+    "text": "rejigger fatal attraction into a high school setting",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 130,
+    "text": "to avoid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 131,
+    "text": "with little logic or continuity",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 132,
+    "text": "satisfyingly scarifying , fresh and old-fashioned at the same time .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 133,
+    "text": "of the plot ( other than its one good idea ) and the movie 's inescapable air of sleaziness",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 134,
+    "text": "show-stoppingly hilarious , but",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 135,
+    "text": "achieves a level of connection and concern",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 136,
+    "text": "many pleasures",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 137,
+    "text": "the bottom tier of blaxploitation flicks",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 138,
+    "text": "have to put up with 146 minutes of it",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 139,
+    "text": "that portrays the frank humanity of ... emotional recovery",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 140,
+    "text": "the four feathers is definitely horse feathers",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 141,
+    "text": "that sends you out of the theater feeling",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 142,
+    "text": "accurately",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 143,
+    "text": "of martin scorsese 's taxi driver and goodfellas",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 144,
+    "text": "visuals and enveloping sounds",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 145,
+    "text": "add up to a biting satire that has no teeth",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 146,
+    "text": "a pretentious and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 147,
+    "text": "worthy idea",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 148,
+    "text": "loose , unaccountable",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 149,
+    "text": "pokes fun at the same easy targets as other rowdy raunch-fests -- farts , boobs , unmentionables -- without much success .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 150,
+    "text": "a skillfully assembled , highly polished and professional adaptation",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 151,
+    "text": "riveting performances",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 152,
+    "text": "i 'll settle for a nice cool glass of iced tea and a jerry bruckheimer flick any day of the week",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 153,
+    "text": "shot on ugly digital video",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 154,
+    "text": "lustrous polished",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 155,
+    "text": "an entertaining mix of period drama and flat-out farce that should please history fans",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 156,
+    "text": "the characters seem one-dimensional",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 157,
+    "text": "a badly edited , 91-minute trailer ( and )",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 158,
+    "text": "deep down , i realized the harsh reality of my situation : i would leave the theater with a lower i.q. than when i had entered .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 159,
+    "text": "proves that a nightmare is a wish a studio 's wallet makes .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 160,
+    "text": "pushing the jokes at the expense of character until things fall apart",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 161,
+    "text": "poor fit",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 162,
+    "text": "a historic scandal",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 163,
+    "text": "exhilarating , funny and fun .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 164,
+    "text": "most audacious , outrageous ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 165,
+    "text": "grant is n't cary and bullock is n't katherine .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 166,
+    "text": "another best of the year selection .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 167,
+    "text": "thrill you , touch you",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 168,
+    "text": "one of the smartest",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 169,
+    "text": "overrun by corrupt and hedonistic weasels",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 170,
+    "text": "but filmmaker yvan attal quickly writes himself into a corner",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 171,
+    "text": "fewer deliberate laughs , more inadvertent ones and stunningly trite",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 172,
+    "text": "follow the same blueprint from hundreds of other films , sell it to the highest bidder and walk away without anyone truly knowing your identity",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 173,
+    "text": "confusion and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 174,
+    "text": "no charm",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 175,
+    "text": "of those underrated professionals who deserve but rarely receive it",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 176,
+    "text": "awesome",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 177,
+    "text": "atrocities",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 178,
+    "text": "seeking an existent anti-virus",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 179,
+    "text": "halfway through this picture i was beginning to hate it , and ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 180,
+    "text": "what 's most offensive",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 181,
+    "text": "wry humor",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 182,
+    "text": "a first-class road movie that proves you can run away from home , but your ego",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 183,
+    "text": "the numerous scenes",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 184,
+    "text": "this goofily endearing and well-lensed gorefest",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 185,
+    "text": "its use of the thriller form to examine the labyrinthine ways in which people 's lives cross and change , buffeted by events seemingly out of their control ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 186,
+    "text": "proves that he can cross swords with the best of them and helm a more traditionally plotted popcorn thriller while surrendering little of his intellectual rigor or creative composure .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 187,
+    "text": "unlike so many other hollywood movies of its ilk , it offers hope",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 188,
+    "text": "feel like a short stretched out to feature length",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 189,
+    "text": "ice age wo n't drop your jaw",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 190,
+    "text": "carnage and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 191,
+    "text": "positive impression",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 192,
+    "text": "drowsy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 193,
+    "text": "convincing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 194,
+    "text": "touched by an unprecedented tragedy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 195,
+    "text": "by far the worst movie of the year",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 196,
+    "text": "no reason to watch",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 197,
+    "text": "work and 2002 's first great film",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 198,
+    "text": "bundling the flowers of perversity , comedy and romance into a strangely tempting bouquet of a movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 199,
+    "text": "costner 's warm-milk persona is just as ill-fitting as shadyac 's perfunctory directing chops , and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 200,
+    "text": "are lukewarm and quick to pass .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 201,
+    "text": "see this piece of crap again",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 202,
+    "text": "of ` ethnic cleansing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 203,
+    "text": "is at once intimate and universal cinema",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 204,
+    "text": "as a dentist 's waiting room",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 205,
+    "text": "steers clear of the sensational and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 206,
+    "text": "i encourage young and old alike to go see this unique and entertaining twist on the classic whale 's tale --",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 207,
+    "text": "that tells a sweet , charming tale of intergalactic friendship",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 208,
+    "text": "have poignancy jostling against farce , thoughtful dialogue elbowed aside by one-liners , and a visual style that incorporates rotoscope animation for no apparent reason except , maybe , that it looks neat .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 209,
+    "text": "bother if you 're going to subjugate truth to the tear-jerking demands of soap opera",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 210,
+    "text": "that , in their own idiosyncratic way , sum up the strange horror of life in the new millennium",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 211,
+    "text": "to shine through the gloomy film noir veil",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 212,
+    "text": "nicolas cage is n't the first actor to lead a group of talented friends astray , and this movie wo n't create a ruffle in what is already an erratic career .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 213,
+    "text": "can be distinguished from a mediocre one by the better film 's ability to make its subject interesting to those who are n't part of its supposed target audience .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 214,
+    "text": "'s too interested in jerking off in all its byzantine incarnations to bother pleasuring its audience .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 215,
+    "text": "page-turning",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 216,
+    "text": "is conversational bordering on confessional",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 217,
+    "text": "was , as my friend david cross would call it , ` hungry-man portions of bad '",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 218,
+    "text": "you should see this movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 219,
+    "text": "is how so many talented people were convinced to waste their time",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 220,
+    "text": "the under-7 crowd",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 221,
+    "text": "gentle , lapping rhythms",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 222,
+    "text": "a movie , a vampire soap opera that does n't make much",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 223,
+    "text": "a return ticket",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 224,
+    "text": "this slender plot feels especially thin stretched over the nearly 80-minute running time .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 225,
+    "text": "nothing left to work with , sort of like michael jackson 's nose",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 226,
+    "text": "of a physician who needs to heal himself",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 227,
+    "text": "a beautiful film to watch",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 228,
+    "text": "starts out like heathers , then becomes bring it on , then becomes unwatchable",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 229,
+    "text": "if the laborious pacing and endless exposition had been tightened",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 230,
+    "text": "nothing more than the latest schwarzenegger or stallone",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 231,
+    "text": "salvation and good intentions",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 232,
+    "text": "is an oddly fascinating depiction of an architect of pop culture",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 233,
+    "text": "a thriller without thrills and a mystery devoid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 234,
+    "text": "actors in bad bear suits enact a sort of inter-species parody of a vh1 behind the music episode",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 235,
+    "text": "is both a snore and utter tripe",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 236,
+    "text": ", uneven action comedy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 237,
+    "text": "laced with liberal doses of dark humor , gorgeous exterior photography , and a stable-full of solid performances , no such thing is a fascinating little tale .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 238,
+    "text": "emerges as a surprisingly anemic disappointment",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 239,
+    "text": "you are likely to witness in a movie theater for some time",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 240,
+    "text": "surprisingly touching",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 241,
+    "text": "the greatest musicians",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 242,
+    "text": "infuses it into a rustic , realistic , and altogether creepy tale of hidden invasion",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 243,
+    "text": "african american professionals",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 244,
+    "text": "style and flash",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 245,
+    "text": "for its rather slow beginning",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 246,
+    "text": ", remote , emotionally distant piece",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 247,
+    "text": "equals the original and in some ways even betters it",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 248,
+    "text": "was being attempted here that stubbornly refused to gel",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 249,
+    "text": "for most movies , 84 minutes is short , but",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 250,
+    "text": "pass for a thirteen-year-old 's book report",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 251,
+    "text": ", the film would be a total washout .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 252,
+    "text": "a disaster of a story , full of holes and completely lacking in chills",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 253,
+    "text": "goofy pleasure",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 254,
+    "text": ", this quietly lyrical tale probes the ambiguous welcome extended by iran to the afghani refugees who streamed across its borders , desperate for work and food .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 255,
+    "text": "you turn stupid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 256,
+    "text": "the problem , amazingly enough , is the screenplay .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 257,
+    "text": "the film has an infectious enthusiasm and we 're touched by the film 's conviction that all life centered on that place , that time and that sport",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 258,
+    "text": "that such a talented director as chen kaige",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 259,
+    "text": "be made on the cheap",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 260,
+    "text": "be tried as a war criminal",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 261,
+    "text": ", despite downplaying her good looks , carries a little too much ai n't - she-cute baggage into her lead role as a troubled and determined homicide cop to quite pull off the heavy stuff .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 262,
+    "text": "about how good it all was , and started doing nothing but reacting to it - feeling a part of its grand locations , thinking urgently as the protagonists struggled , feeling at the mercy of its inventiveness , gasping at its visual delights",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 263,
+    "text": "his fake backdrops",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 264,
+    "text": "too stagey , talky",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 265,
+    "text": "can both maintain and dismantle the facades that his genre and his character construct is a wonderous accomplishment of veracity and narrative grace",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 266,
+    "text": "is deadly dull",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 267,
+    "text": "make ` cherish ' a very good ( but not great ) movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 268,
+    "text": "the slow parade of human frailty fascinates you",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 269,
+    "text": "the talents of his top-notch creative team",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 270,
+    "text": "witty , vibrant , and intelligent .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 271,
+    "text": "annoying rather than charming",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 272,
+    "text": "a worthwhile moviegoing experience",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 273,
+    "text": "a great film noir",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 274,
+    "text": "at a snail 's pace",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 275,
+    "text": "every bad action-movie line",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 276,
+    "text": "' dwells on crossing-over mumbo jumbo , manipulative sentimentality , and sappy dialogue .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 277,
+    "text": "satisfying",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 278,
+    "text": "like `` horrible '' and `` terrible",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 279,
+    "text": "offers an aids subtext , skims over the realities of gay sex ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 280,
+    "text": "a compelling story of musical passion against governmental odds .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 281,
+    "text": "it would be better as a diary or documentary",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 282,
+    "text": "the last days",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 283,
+    "text": "( and fairly unbelievable ) finale",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 284,
+    "text": "impressive talent",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 285,
+    "text": "dilutes the pleasure of watching them",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 286,
+    "text": "that it 's too close to real life to make sense",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 287,
+    "text": "not quite as miraculous as its dreamworks makers would have you believe , but it more than adequately fills the eyes and stirs the emotions .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 288,
+    "text": "despite modest aspirations its occasional charms are not to be dismissed .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 289,
+    "text": "friendship ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 290,
+    "text": "instead of a witty expose on the banality and hypocrisy of too much kid-vid , we get an ugly , mean-spirited lashing out by an adult who 's apparently been forced by his kids to watch too many barney videos .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 291,
+    "text": "if you 're a fan of the series you 'll love it and probably want to see it twice .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 292,
+    "text": ", ultimate x is the gabbiest giant-screen movie ever , bogging down in a barrage of hype .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 293,
+    "text": "proof of that on the cinematic front , look no further than this 20th anniversary edition of the film that spielberg calls",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 294,
+    "text": "in other words , about as bad a film you 're likely to see all year .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 295,
+    "text": "is an actress works as well as it does because ( the leads ) are such a companionable couple .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 296,
+    "text": "is this so boring",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 297,
+    "text": "the heroes of horror movies try to avoid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 298,
+    "text": "suspenseful",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 299,
+    "text": "written , flatly , by david kendall and directed , barely , by there 's something about mary co-writer ed decter .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 300,
+    "text": "is impressive",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 301,
+    "text": "is nothing distinguishing in a randall wallace film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 302,
+    "text": "polished and vastly entertaining",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 303,
+    "text": "manages to accomplish what few sequels can -- it equals the original and in some ways even betters it",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 304,
+    "text": "colorful , vibrant introduction",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 305,
+    "text": "off the page , and for the memorable character creations",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 306,
+    "text": "might to resist , if you 've got a place in your heart for smokey robinson",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 307,
+    "text": "can only encourage us to see samira makhmalbaf as a very distinctive sensibility , working to develop her own film language with conspicuous success",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 308,
+    "text": "'s because relatively nothing happens",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 309,
+    "text": "could easily be called the best korean film of 2002",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 310,
+    "text": ", wit and interesting characters",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 311,
+    "text": "nearly all the fundamentals you take for granted in most films are mishandled here .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 312,
+    "text": "inferior level",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 313,
+    "text": "pathetic exploitation film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 314,
+    "text": "underneath such a mountain of clichés and borrowed images",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 315,
+    "text": "psychologically revealing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 316,
+    "text": "it just did n't mean much to me and played too skewed to ever get a hold on ( or be entertained by ) .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 317,
+    "text": "vein",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 318,
+    "text": "seems so larger than life and yet so fragile",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 319,
+    "text": "it is an engaging and exciting narrative of man confronting the demons of his own fear and paranoia",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 320,
+    "text": "the heat of the moment prevails .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 321,
+    "text": "the laramie project is worthwhile for reminding us that this sort of thing does , in fact , still happen in america",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 322,
+    "text": "the direction occasionally rises to the level of marginal competence , but for most of the film it is hard to tell who is chasing who or why",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 323,
+    "text": "the fact that the film idiotically uses the website feardotcom.com or the improperly hammy performance from poor stephen rea",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 324,
+    "text": "pyrotechnics its punchy style promises",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 325,
+    "text": "gets the job done .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 326,
+    "text": "not only a pianist , but a good human being",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 327,
+    "text": "is too much like a fragment of an underdone potato .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 328,
+    "text": "that graze the funny bone",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 329,
+    "text": "for two directors with far less endearing disabilities",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 330,
+    "text": "not falling into the hollywood trap and making a vanity project with nothing new to offer",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 331,
+    "text": ", others will find their humor-seeking dollars best spent elsewhere .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 332,
+    "text": "there 's something poignant about an artist of 90-plus years taking the effort to share his impressions of life and loss and time and art with us .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 333,
+    "text": ", solid , kinetically-charged spy flick worthy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 334,
+    "text": "for no apparent reason except",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 335,
+    "text": "even when it drags , we are forced to reflect that its visual imagination is breathtaking",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 336,
+    "text": "a stylish but steady , and ultimately very satisfying , piece of character-driven storytelling",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 337,
+    "text": "visual virtues",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 338,
+    "text": "in world cinema",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 339,
+    "text": "disguise the fact that the new film is a lame kiddie flick and that carvey 's considerable talents are wasted in it",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 340,
+    "text": "with a wonderful ensemble cast of characters that bring the routine day to day struggles of the working class to life",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 341,
+    "text": "rated eee for excitement .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 342,
+    "text": "the film a celluloid litmus test for the intellectual and emotional pedigree of your date and a giant step backward for a director i admire",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 343,
+    "text": "... a series of tales told with the intricate preciseness of the best short story writing .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 344,
+    "text": "by no means a slam-dunk and sure to ultimately disappoint the action fans who will be moved to the edge of their seats by the dynamic first act",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 345,
+    "text": "of moviegoers for real characters and compelling plots",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 346,
+    "text": "who have carved their own comfortable niche in the world",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 347,
+    "text": "to address his own world war ii experience in his signature style",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 348,
+    "text": "fun and funny in the middle , though somewhat less",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 349,
+    "text": "high-concept films",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 350,
+    "text": "enjoy seeing how both evolve",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 351,
+    "text": "'s like rocky and bullwinkle on speed",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 352,
+    "text": "understated piece of filmmaking",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 353,
+    "text": "increasingly implausible as it races",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 354,
+    "text": ", the film gets added disdain for the fact that it is nearly impossible to look at or understand .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 355,
+    "text": "dazzling , remarkably unpretentious reminder",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 356,
+    "text": "more ambivalent set",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 357,
+    "text": "still fun and enjoyable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 358,
+    "text": "a crowd-pleaser , but then ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 359,
+    "text": "that freshly considers arguments the bard 's immortal plays",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 360,
+    "text": "felt performances across the board .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 361,
+    "text": "do n't blame eddie murphy but",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 362,
+    "text": "whimsical and relevant today",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 363,
+    "text": "that underscore the importance of family tradition and familial community",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 364,
+    "text": "see her esther blossom as an actress ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 365,
+    "text": "really , really stupid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 366,
+    "text": "'' derrida is an undeniably fascinating and playful fellow .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 367,
+    "text": "sci-fi .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 368,
+    "text": "be ( assayas ' ) homage to the gallic ` tradition of quality ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 369,
+    "text": "sleep-inducing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 370,
+    "text": "served with a hack script",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 371,
+    "text": "a very good viewing alternative",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 372,
+    "text": "an incredibly thoughtful , deeply meditative picture",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 373,
+    "text": "the movie 's captivating details are all in the performances , from foreman 's barking-mad taylor to thewlis 's smoothly sinister freddie and bettany/mcdowell 's hard-eyed gangster .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 374,
+    "text": "wannabe .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 375,
+    "text": "'s rarely as moronic as some campus gross-out films",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 376,
+    "text": "not a stereotype is omitted nor a cliché left unsaid .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 377,
+    "text": "for granted in most films are mishandled here",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 378,
+    "text": "that really gives the film its oomph",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 379,
+    "text": "does its sensitive handling of some delicate subject matter",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 380,
+    "text": "is never any question of how things will turn out",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 381,
+    "text": "director randall wallace 's flag-waving war flick with a core of decency",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 382,
+    "text": "frustration from those",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 383,
+    "text": "conflict",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 384,
+    "text": "watchable by a bravura performance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 385,
+    "text": "has much to recommend it",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 386,
+    "text": "` it 's painful to watch witherspoon 's talents wasting away inside unnecessary films like legally blonde and sweet home abomination , i mean , alabama . '",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 387,
+    "text": "the pitch-perfect forster",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 388,
+    "text": "a must-see for fans of thoughtful war films and those",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 389,
+    "text": "it 's a masterpeice .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 390,
+    "text": "plenty of entertainment value",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 391,
+    "text": "with all the dysfunctional family dynamics one could wish for",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 392,
+    "text": "built for controversy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 393,
+    "text": "a pretty decent kid-pleasing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 394,
+    "text": "sorvino makes the princess seem smug and cartoonish",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 395,
+    "text": "seems uncertain whether it wants to be an acidic all-male all about eve or a lush , swooning melodrama in the intermezzo strain .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 396,
+    "text": "tootsie knockoff .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 397,
+    "text": "though the aboriginal aspect lends the ending an extraordinary poignancy , and the story",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 398,
+    "text": "spreads itself too thin ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 399,
+    "text": "gives human nature its unique feel",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 400,
+    "text": "the story , like ravel 's bolero , builds to a crescendo that encompasses many more paths than we started with .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 401,
+    "text": "surprisingly funny movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 402,
+    "text": "collapses after 30 minutes into a slap-happy series",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 403,
+    "text": "death , especially",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 404,
+    "text": "unexpectedly insightful",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 405,
+    "text": "it makes for one of the most purely enjoyable and satisfying evenings at the movies i 've had in a while .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 406,
+    "text": "by the time it 's done with us , mira nair 's new movie has its audience giddy with the delight of discovery ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 407,
+    "text": "men in black ii achieves ultimate insignificance --",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 408,
+    "text": "hmmm",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 409,
+    "text": "drama , conflict ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 410,
+    "text": "spider invasion comic chiller",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 411,
+    "text": "'s fairly lame , making it par for the course for disney sequels .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 412,
+    "text": "exciting and well-paced",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 413,
+    "text": "( gulpilil ) is a commanding screen presence",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 414,
+    "text": "a strong and confident work which works so well for the first 89 minutes , but ends so horrendously confusing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 415,
+    "text": "a more confused , less interesting and more sloppily",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 416,
+    "text": "have developed some taste",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 417,
+    "text": "little emotional resonance",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 418,
+    "text": "both heartbreaking and heartwarming ...",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 419,
+    "text": "a much better mother-daughter tale",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 420,
+    "text": "an engrossing portrait of a man whose engaging manner and flamboyant style made him a truly larger-than-life character",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 421,
+    "text": "impress about e.t.",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 422,
+    "text": "is a frighteningly fascinating contradiction",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 423,
+    "text": "illuminates what it means sometimes to be inside looking out , and at other times outside looking in .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 424,
+    "text": "no foundation",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 425,
+    "text": ", touching , dramatically forceful , and beautifully shot",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 426,
+    "text": "rich tale",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 427,
+    "text": "from its sleazy moralizing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 428,
+    "text": "too safe",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 429,
+    "text": "so much that one viewing ca n't possibly be enough",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 430,
+    "text": "that should appeal to anyone willing to succumb to it",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 431,
+    "text": "that gets under your skin",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 432,
+    "text": "has its rewards .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 433,
+    "text": "soap-opera",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 434,
+    "text": "jams too many prefabricated story elements",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 435,
+    "text": "this alleged psychological thriller",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 436,
+    "text": "of the best films of the year",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 437,
+    "text": "oft-brilliant",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 438,
+    "text": "fascinating , unnerving examination",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 439,
+    "text": "... familiar and predictable , and 4/5ths of it might as well have come from a xerox machine rather than ( writer-director ) franc .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 440,
+    "text": "i mind ugly",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 441,
+    "text": "has a sure hand",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 442,
+    "text": "unfortunately , that 's precisely what arthur dong 's family fundamentals does .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 443,
+    "text": "with nothing but a savage garden music video on his resume",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 444,
+    "text": "mike white 's deft combination of serious subject matter and dark , funny humor make `` the good girl '' a film worth watching .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 445,
+    "text": "american and european cinema has amassed a vast holocaust literature , but it is impossible to think of any film more challenging or depressing than the grey zone .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 446,
+    "text": "will you feel after an 88-minute rip-off of the rock with action confined to slo-mo gun firing and random glass-shattering",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 447,
+    "text": "heavy with flabby rolls of typical toback machinations .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 448,
+    "text": "the film lacks momentum and its position remains mostly undeterminable",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 449,
+    "text": "that stalls in its lackluster gear of emotional blandness",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 450,
+    "text": "if it chiefly inspires you to drive a little faster",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 451,
+    "text": "is they have a tendency to slip into hokum",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 452,
+    "text": "i thought the relationships were wonderful , the comedy was funny , and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 453,
+    "text": "a solid , spooky entertainment worthy of the price of a ticket",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 454,
+    "text": "significantly better",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 455,
+    "text": "wrong hands",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 456,
+    "text": "cold , sterile and lacking any color or warmth",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 457,
+    "text": "you 're looking for an intelligent movie in which you can release your pent up anger",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 458,
+    "text": "of the whole dead-undead genre , who deserve more from a vampire pic than a few shrieky special effects",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 459,
+    "text": "to do justice to either effort in three hours of screen time",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 460,
+    "text": "it 's got all the familiar bruckheimer elements , and schumacher does probably as good a job as anyone at bringing off the hopkins/rock collision of acting styles and onscreen personas",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 461,
+    "text": "a film really has to be exceptional to justify a three hour running time , and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 462,
+    "text": "the whole thing never existed",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 463,
+    "text": "before long , you 're desperate for the evening to end .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 464,
+    "text": "politically charged",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 465,
+    "text": "liberal doses of dark humor , gorgeous exterior photography , and a stable-full of solid performances",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 466,
+    "text": "effort to share his impressions of life and loss and time and art with us",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 467,
+    "text": "shallow and dim-witted",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 468,
+    "text": "that it 's almost worth seeing because it 's so bad",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 469,
+    "text": "critical backlash",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 470,
+    "text": "what a reckless squandering",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 471,
+    "text": "it 's as if allen , at 66 , has stopped challenging himself .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 472,
+    "text": "big-hearted and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 473,
+    "text": "terror by suggestion , rather than the overuse of special effects",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 474,
+    "text": "sitting in the third row of the imax cinema at sydney 's darling harbour , but i sometimes felt as though i was in the tiny two seater plane that carried the giant camera around australia , sweeping and gliding , banking and hovering over some of the most not",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 475,
+    "text": "conjured up more coming-of-age stories than seem possible",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 476,
+    "text": "more evil than ever",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 477,
+    "text": "you feel fully embraced by this gentle comedy",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 478,
+    "text": "beloved-major",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 479,
+    "text": "admirable energy , full-bodied characterizations and narrative urgency",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 480,
+    "text": "willingness to wander into the dark areas of parent-child relationships without flinching",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 481,
+    "text": "be churlish to begrudge anyone for receiving whatever consolation that can be found in dragonfly",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 482,
+    "text": "it feels like unrealized potential",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 483,
+    "text": "intriguing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 484,
+    "text": "evokes the blithe rebel fantasy with the kind of insouciance embedded in the sexy demise of james dean .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 485,
+    "text": "hole-ridden plotting",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 486,
+    "text": "who , exactly , is fighting whom here",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 487,
+    "text": "shot in rich , shadowy black-and-white , devils chronicles",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 488,
+    "text": "brings to a spectacular completion one of the most complex , generous and subversive artworks of the last decade .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 489,
+    "text": "consistency",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 490,
+    "text": "'s funniest and most likeable movie in years .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 491,
+    "text": "knows everything and answers all questions , is visually smart , cleverly written , and nicely realized",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 492,
+    "text": "you 've actually spent time living in another community",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 493,
+    "text": "is neither amusing nor dramatic enough to sustain interest",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 494,
+    "text": "has a dashing and resourceful hero ; a lisping , reptilian villain ; big fights ; big hair ; lavish period scenery ; and a story just complicated enough to let you bask in your own cleverness as you figure it out .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 495,
+    "text": "spirit is a visual treat , and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 496,
+    "text": "brilliantly constructed work",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 497,
+    "text": "war movies",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 498,
+    "text": "wedding feels a bit anachronistic .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 499,
+    "text": "both convincing and radiant",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 500,
+    "text": "a very good ( but not great ) movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 501,
+    "text": "does n't quite go the distance",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 502,
+    "text": "wisdom and emotion",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 503,
+    "text": "... a good film that must have baffled the folks in the marketing department .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 504,
+    "text": "the movie slides downhill as soon as macho action conventions assert themselves .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 505,
+    "text": ", mind-numbingly , indescribably bad",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 506,
+    "text": "a treatise on spirituality as well as a solid sci-fi thriller",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 507,
+    "text": "humble , teach and ultimately",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 508,
+    "text": "that even a story immersed in love , lust , and sin could n't keep my attention",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 509,
+    "text": ", it 's a lyrical endeavor .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 510,
+    "text": "spielberg 's first real masterpiece",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 511,
+    "text": "stylish but steady , and ultimately very satisfying ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 512,
+    "text": "half-baked setups and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 513,
+    "text": "worldly-wise and very funny script",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 514,
+    "text": "a revealing look",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 515,
+    "text": "cassavetes thinks he 's making dog day afternoon with a cause , but all he 's done is to reduce everything he touches to a shrill , didactic cartoon",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 516,
+    "text": "are simultaneously buried , drowned and smothered in the excesses of writer-director roger avary",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 517,
+    "text": "muddled , simplistic and more than a little pretentious .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 518,
+    "text": "settles in and becomes compulsively watchable in a guilty-pleasure , daytime-drama sort of fashion .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 519,
+    "text": "better suited to a night in the living room than a night at the movies",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 520,
+    "text": "unique feel",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 521,
+    "text": "a résumé loaded with credits like `` girl in bar # 3",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 522,
+    "text": "most wondrously gifted artists",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 523,
+    "text": "dog",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 524,
+    "text": "rambles aimlessly",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 525,
+    "text": "to please audiences who like movies that demand four hankies",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 526,
+    "text": "of the summer 's most pleasurable movies",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 527,
+    "text": "yes , but also intriguing and honorable ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 528,
+    "text": "particularly joyless , and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 529,
+    "text": "so stupid",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 530,
+    "text": "ultimately it 's undone by a sloppy script",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 531,
+    "text": "this movie 's lack of ideas",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 532,
+    "text": "meaty subject",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 533,
+    "text": "elegant and eloquent ( meditation ) on death and that most elusive of passions , love .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 534,
+    "text": "done , so primitive in technique ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 535,
+    "text": "fuddled about motives and context , which drains it of the dramatic substance that would shake us in our boots ( or cinema seats )",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 536,
+    "text": "imaginative kid 's movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 537,
+    "text": "an inuit masterpiece that will give you goosebumps as its uncanny tale of love , communal discord , and justice",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 538,
+    "text": "a heartbreakingly thoughtful minor classic , the work of a genuine and singular artist .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 539,
+    "text": "fairly revealing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 540,
+    "text": "gratify anyone who has ever suspected hollywood of being overrun by corrupt and hedonistic weasels",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 541,
+    "text": "about half of them are funny , a few are sexy and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 542,
+    "text": "it 's sweet and fluffy at the time ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 543,
+    "text": "the year 's greatest adventure",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 544,
+    "text": "paid in full is remarkably engaging despite being noticeably derivative of goodfellas and at least a half dozen other trouble-in-the-ghetto flicks .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 545,
+    "text": "grade",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 546,
+    "text": "that transcends culture and race",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 547,
+    "text": "has a bracing truth that 's refreshing after the phoniness of female-bonding pictures like divine secrets of the ya-ya sisterhood .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 548,
+    "text": "while peppering the pages with memorable zingers",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 549,
+    "text": "than an autopsy , the movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 550,
+    "text": "of elephant feces",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 551,
+    "text": "'s hard to imagine anybody ever being `` in the mood '' to view a movie as harrowing and painful as the grey zone",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 552,
+    "text": "movie love",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 553,
+    "text": "do all three quite well ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 554,
+    "text": "because of its music or comic antics , but through the perverse pleasure of watching disney scrape the bottom of its own cracker barrel",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 555,
+    "text": "from a summer of teen-driven , toilet-humor codswallop",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 556,
+    "text": "every conceivable mistake a director could make in filming opera",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 557,
+    "text": ", the weight of water is oppressively heavy .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 558,
+    "text": "the refugees able to look ahead and resist living in a past",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 559,
+    "text": "i had a dream that a smart comedy would come along to rescue me from a summer of teen-driven , toilet-humor codswallop ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 560,
+    "text": "accept it as life and go with its flow",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 561,
+    "text": "to lawrence 's over-indulgent tirade",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 562,
+    "text": "seem less of a trifle if ms. sugarman followed through on her defiance of the saccharine",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 563,
+    "text": "exquisite , unfakable sense",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 564,
+    "text": "striking",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 565,
+    "text": "at best and mind-destroying cinematic pollution",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 566,
+    "text": "second fiddle",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 567,
+    "text": "cold movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 568,
+    "text": "still fun and enjoyable and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 569,
+    "text": "undramatic",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 570,
+    "text": "what 's not to like about a movie with a ` children 's ' song that includes the line ` my stepdad 's not mean , he 's just adjusting ' ?",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 571,
+    "text": "overly old-fashioned",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 572,
+    "text": "bogdanovich puts history in perspective",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 573,
+    "text": "every bit as imperious as katzenberg 's the prince of egypt from 1998 .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 574,
+    "text": "occasionally flawed ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 575,
+    "text": "depressed",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 576,
+    "text": "any insight",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 577,
+    "text": "color and creativity",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 578,
+    "text": "mr. nelson has made a film that is an undeniably worthy and devastating experience .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 579,
+    "text": "is so busy making reference to other films and trying to be other films that it fails to have a heart , mind or humor of its own",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 580,
+    "text": "laughs aplenty",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 581,
+    "text": "far-flung",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 582,
+    "text": "standout",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 583,
+    "text": "waster '",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 584,
+    "text": "is genial but never inspired , and little",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 585,
+    "text": "struggle furiously",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 586,
+    "text": "ends up being neither , and fails at both endeavors .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 587,
+    "text": "'s not that funny",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 588,
+    "text": "surgeon mends",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 589,
+    "text": "vile enough",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 590,
+    "text": "undermined by the movie 's presentation , which is way too stagy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 591,
+    "text": "only scratches the surface",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 592,
+    "text": "and your reward will be a thoughtful , emotional movie experience .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 593,
+    "text": "ticks off kahlo 's lifetime milestones with the dutiful precision of a tax accountant",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 594,
+    "text": "a cheap thriller , a dumb comedy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 595,
+    "text": "'d probably turn it off ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 596,
+    "text": "a fierce dance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 597,
+    "text": "a snore and utter tripe",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 598,
+    "text": "uncanny ability to right itself precisely when you think it 's in danger of going wrong",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 599,
+    "text": "well-paced and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 600,
+    "text": "usual worst",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 601,
+    "text": "off the hook is overlong and not well-acted , but credit writer-producer-director adam watstein with finishing it at all .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 602,
+    "text": "creates a fluid and mesmerizing sequence of images to match the words of nijinsky 's diaries",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 603,
+    "text": "setting distracts",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 604,
+    "text": "five screenwriters are credited with the cliché-laden screenplay ; it seems as if each watered down the version of the one before .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 605,
+    "text": "outshined",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 606,
+    "text": "a sincere performance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 607,
+    "text": "jumps around with little logic or continuity , presenting backstage bytes of information that never amount to a satisfying complete picture of this particular , anciently demanding métier .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 608,
+    "text": "a beautifully",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 609,
+    "text": "that the only rip off that we were aware of",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 610,
+    "text": "exciting documentary .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 611,
+    "text": ", you 'll like promises .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 612,
+    "text": "who might otherwise go unnoticed and underappreciated by music fans",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 613,
+    "text": "impassive a manner",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 614,
+    "text": "a dazzling , remarkably unpretentious reminder of what ( evans ) had , lost , and got back",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 615,
+    "text": "and satirical touches",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 616,
+    "text": "where people who have never picked a lock do so easily after a few tries and become expert fighters after a few weeks",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 617,
+    "text": "built-in audience",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 618,
+    "text": ", from the incongruous but chemically",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 619,
+    "text": "mobius strip",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 620,
+    "text": "joyous life",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 621,
+    "text": "directors abandon their scripts and go where the moment takes them",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 622,
+    "text": "the hook is the drama within the drama , as an unsolved murder and an unresolved moral conflict jockey for the spotlight .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 623,
+    "text": "the perfect face to play a handsome blank yearning to find himself",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 624,
+    "text": "it is supremely unfunny and unentertaining to watch middle-age and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 625,
+    "text": "is that it 's a rock-solid little genre picture",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 626,
+    "text": "good ear",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 627,
+    "text": "bright young men -- promising , talented , charismatic and tragically",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 628,
+    "text": "familiar , funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 629,
+    "text": "more outre aspects",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 630,
+    "text": "hate to tear your eyes away from the images long enough to read the subtitles",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 631,
+    "text": "a thoroughly awful movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 632,
+    "text": "falls to the floor with a sickening thud",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 633,
+    "text": "more of the same from taiwanese auteur tsai ming-liang , which is good news to anyone who 's fallen under the sweet , melancholy spell of this unique director 's previous films .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 634,
+    "text": "roman polanski may have been born to make",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 635,
+    "text": "deftly setting off uproarious humor with an underlying seriousness that sneaks up on the viewer , providing an experience that is richer than anticipated .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 636,
+    "text": "an unholy mess ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 637,
+    "text": "puts enough salt into the wounds of the tortured and self-conscious material",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 638,
+    "text": "a moving story",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 639,
+    "text": "a bland animated sequel",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 640,
+    "text": "that 's so sloppily written and cast that you can not believe anyone more central to the creation of bugsy than the caterer",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 641,
+    "text": "boasts enough funny dialogue and sharp characterizations to be mildly amusing .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 642,
+    "text": "suspect that you 'll be as bored watching morvern callar as the characters are in it",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 643,
+    "text": "cutting hollywood satire",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 644,
+    "text": "the journey is such a mesmerizing one",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 645,
+    "text": "a good idea",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 646,
+    "text": "are relegated to the background -- a welcome step forward from the sally jesse raphael atmosphere of films like philadelphia and american beauty .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 647,
+    "text": "snide and prejudice",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 648,
+    "text": "while centered on the life experiences of a particular theatrical family , this marvelous documentary touches -- ever so gracefully -- on the entire history of the yiddish theater , both in america and israel .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 649,
+    "text": "unbalanced mixture",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 650,
+    "text": "just a string",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 651,
+    "text": "film to affirm love 's power to help people endure almost unimaginable horror",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 652,
+    "text": "too clumsy in key moments ... to make a big splash .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 653,
+    "text": "engaging and intimate",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 654,
+    "text": "beautifully produced .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 655,
+    "text": "nothing interesting in unfaithful",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 656,
+    "text": "the humor has point",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 657,
+    "text": "lack a strong-minded viewpoint , or a sense of humor .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 658,
+    "text": "cold , nervy and memorable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 659,
+    "text": "really cool bit",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 660,
+    "text": "a fantastically vital movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 661,
+    "text": "nothing wrong with performances here , but the whiney characters bugged me .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 662,
+    "text": "the movie is n't painfully bad , something to be ` fully experienced ' ; it 's just tediously bad , something to be fully forgotten",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 663,
+    "text": "devolves into a laugh-free lecture",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 664,
+    "text": "it 's fitting that a movie as artificial and soulless as the country bears owes its genesis to an animatronic display at disneyland .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 665,
+    "text": "if good-hearted",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 666,
+    "text": "by the ensemble cast , the flat dialogue by vincent r. nebrida or the gutless direction by laurice guillen",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 667,
+    "text": "is moody , oozing , chilling and heart-warming all at once",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 668,
+    "text": "grant is certainly amusing , but",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 669,
+    "text": ", purposeless",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 670,
+    "text": "their way around this movie directionless ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 671,
+    "text": "a very lively dream",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 672,
+    "text": "is akin to a reader 's digest condensed version of the source material",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 673,
+    "text": "than its fair share of saucy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 674,
+    "text": "enters a realm where few non-porn films venture , and comes across as darkly funny , energetic , and surprisingly gentle .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 675,
+    "text": "for making a florid biopic about mad queens , obsessive relationships , and rampant adultery so dull",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 676,
+    "text": "and in the best way",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 677,
+    "text": "she allows each character to confront their problems openly and honestly .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 678,
+    "text": "coordinated his own dv poetry",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 679,
+    "text": "overwrought",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 680,
+    "text": "intimate , unguarded moments",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 681,
+    "text": "touched by the film 's conviction",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 682,
+    "text": "have no idea what in creation is going on",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 683,
+    "text": "of its oscar nomination",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 684,
+    "text": "this is n't a movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 685,
+    "text": "only surprise",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 686,
+    "text": "sentimental script",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 687,
+    "text": "occasion",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 688,
+    "text": "elicits strong performances from his cast",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 689,
+    "text": "i wanted more .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 690,
+    "text": "that prevents them from firing on all cylinders",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 691,
+    "text": "also has humor and heart and very talented young actors",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 692,
+    "text": "carrying this wafer-thin movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 693,
+    "text": "career - kids = misery )",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 694,
+    "text": "a classic story",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 695,
+    "text": "complaining when a film clocks in around 90 minutes these days",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 696,
+    "text": "excruciatingly",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 697,
+    "text": "vulgar",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 698,
+    "text": "to think of any film more challenging or depressing than the grey zone",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 699,
+    "text": "does n't work because there is no foundation for it",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 700,
+    "text": "in a well-balanced fashion",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 701,
+    "text": "dying and loving",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 702,
+    "text": "tends to pile too many `` serious issues '' on its plate at times , yet",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 703,
+    "text": "as good",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 704,
+    "text": "beautiful paean",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 705,
+    "text": "this insufferable movie",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 706,
+    "text": "ian holm conquers france as an earthy napoleon",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 707,
+    "text": "a thoroughly awful movie -- dumb , narratively chaotic , visually sloppy ... a weird amalgam of ` the thing ' and a geriatric",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 708,
+    "text": "macabre and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 709,
+    "text": "a sharp , amusing study of the cult of celebrity",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 710,
+    "text": "rich",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 711,
+    "text": "revolutionary spirit",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 712,
+    "text": "this is the kind of subject matter that could so easily have been fumbled by a lesser filmmaker ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 713,
+    "text": "mib ii is a movie that makes it possible for the viewer to doze off for a few minutes or make several runs to the concession stand and/or restroom and not feel as if he or she has missed anything .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 714,
+    "text": "a little uneven to be the cat 's meow , but it 's good enough to be the purr",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 715,
+    "text": "a wartime farce in the alternately comic and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 716,
+    "text": "the nerve to speak up",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 717,
+    "text": "covers this territory with wit and originality , suggesting that with his fourth feature",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 718,
+    "text": "a whale of a good time for both children and parents",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 719,
+    "text": "lucid work",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 720,
+    "text": "freaking out",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 721,
+    "text": "is the kind of movie during which you want to bang your head on the seat in front of you , at its cluelessness , at its idiocy , at its utterly misplaced earnestness",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 722,
+    "text": "the subtitles fool you",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 723,
+    "text": "casts its spooky net",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 724,
+    "text": "alienated",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 725,
+    "text": "was better",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 726,
+    "text": "is so rich with period minutiae",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 727,
+    "text": "her film is like a beautiful food entrée that is n't heated properly , so that it ends up a bit cold and relatively flavorless .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 728,
+    "text": "is pretty funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 729,
+    "text": "well-rounded tribute",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 730,
+    "text": "... portrays young brendan with his usual intelligence and subtlety , not to mention a convincing brogue .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 731,
+    "text": "take me back to a time",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 732,
+    "text": "this italian freakshow",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 733,
+    "text": "one of the best , most understated performances of ( jack nicholson 's ) career .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 734,
+    "text": "then ends with a whimper",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 735,
+    "text": "plenty of laughs",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 736,
+    "text": "does n't leave you with much .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 737,
+    "text": "a fascinating , unnerving examination of the delusions",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 738,
+    "text": "emotionally grand",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 739,
+    "text": "enjoy the ride",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 740,
+    "text": "terrific as nadia , a russian mail-order bride who comes to america speaking not a word of english",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 741,
+    "text": "alone , should scare any sane person away .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 742,
+    "text": "and withholds delivery",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 743,
+    "text": ", so who knew charles dickens could be so light-hearted ?",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 744,
+    "text": "all the dramatic weight",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 745,
+    "text": "luminous interviews",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 746,
+    "text": "is less successful on other levels",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 747,
+    "text": "of musical passion",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 748,
+    "text": "at his 12th oscar nomination",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 749,
+    "text": "'s awfully entertaining",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 750,
+    "text": "a love story as sanguine as its title",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 751,
+    "text": "( i ) t 's certainly laudable that the movie deals with hot-button issues in a comedic context , but barbershop is n't as funny as it should be .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 752,
+    "text": ", it 's awfully entertaining to watch .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 753,
+    "text": "director david fincher and writer david koepp ca n't sustain it .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 754,
+    "text": "me as unusually and unimpressively fussy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 755,
+    "text": "victim to sloppy plotting ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 756,
+    "text": "bound to appeal to women looking for a howlingly trashy time",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 757,
+    "text": "this amiable picture",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 758,
+    "text": "he needs to pull his head out of his butt",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 759,
+    "text": "not only a reminder of how they used to make movies , but also how they sometimes still can be made .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 760,
+    "text": "aimless as an old pickup skidding completely out of control on a long patch of black ice",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 761,
+    "text": "is nothing compared to the movie 's contrived , lame screenplay and listless direction",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 762,
+    "text": "it 's mildly interesting to ponder the peculiar american style of justice that plays out here , but",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 763,
+    "text": "laced",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 764,
+    "text": "the spectacle of small-town competition",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 765,
+    "text": "so exaggerated and broad",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 766,
+    "text": "funny and touching",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 767,
+    "text": "the film 's lamer instincts are in the saddle",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 768,
+    "text": "i do n't feel the least bit ashamed in admitting that my enjoyment came at the expense of seeing justice served , even if it 's a dish that 's best served cold .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 769,
+    "text": "of faith",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 770,
+    "text": "is good all round , but what really sets the film apart is debrauwer 's refusal to push the easy emotional buttons",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 771,
+    "text": "added depth and resonance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 772,
+    "text": "join the pantheon of great monster/science fiction flicks",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 773,
+    "text": "is a convincing one ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 774,
+    "text": "once again strands his superb performers in the same old story .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 775,
+    "text": "it 's definitely not made for kids or their parents , for that matter",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 776,
+    "text": "outrageously creative action",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 777,
+    "text": "are both superb , while huppert ... is magnificent .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 778,
+    "text": "bring a heart and reality that buoy the film , and at times , elevate it to a superior crime movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 779,
+    "text": "originality in ` life ' to distance it from the pack of paint-by-number romantic comedies",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 780,
+    "text": "funny ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 781,
+    "text": "a bad idea from frame one",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 782,
+    "text": "flatter",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 783,
+    "text": "the director had released the outtakes theatrically and used the film as a bonus feature on the dvd",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 784,
+    "text": "the picture runs a mere 84 minutes , but it 's no glance .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 785,
+    "text": "this material could work , especially since the actresses in the lead roles are all more than competent",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 786,
+    "text": "through this sloppy , made-for-movie comedy special",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 787,
+    "text": "somewhat cumbersome",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 788,
+    "text": "astounding",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 789,
+    "text": "surprise us",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 790,
+    "text": "is painfully foolish in trying to hold onto what 's left of his passe ' chopsocky glory",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 791,
+    "text": "inspired '' was a lot funnier",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 792,
+    "text": "the story is bogus and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 793,
+    "text": "held hostage",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 794,
+    "text": "a well-intentioned effort that 's still too burdened by the actor 's offbeat sensibilities for the earnest emotional core to emerge with any degree of accessibility .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 795,
+    "text": "delightful comedy",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 796,
+    "text": "a formula that worked five years ago but has since lost its fizz",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 797,
+    "text": "cross swords with the best of them and helm a more traditionally plotted popcorn thriller while surrendering little of his intellectual rigor or creative composure",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 798,
+    "text": "never catches fire",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 799,
+    "text": "the script covers huge , heavy topics in a bland , surfacey way that does n't offer any insight into why , for instance , good things happen to bad people .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 800,
+    "text": "and revolutionary spirit",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 801,
+    "text": "very very strong",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 802,
+    "text": "suitable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 803,
+    "text": "is still quite good-natured and not a bad way to spend an hour or two .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 804,
+    "text": "the action scenes are poorly delivered",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 805,
+    "text": "being neither",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 806,
+    "text": "proves a servicable world war ii drama that ca n't totally hide its contrivances , but it at least calls attention to a problem hollywood too long has ignored .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 807,
+    "text": "far more often than the warfare",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 808,
+    "text": "... is at once playful and haunting , an in-depth portrait of an iconoclastic artist who was fundamentally unknowable even to his closest friends .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 809,
+    "text": "engaging characters",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 810,
+    "text": "a rather brilliant little cult item : a pastiche of children 's entertainment , superhero comics , and japanese animation",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 811,
+    "text": "sexual and romantic",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 812,
+    "text": "'s hard to resist",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 813,
+    "text": "as brave and challenging",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 814,
+    "text": "a party-hearty teen flick that scalds like acid .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 815,
+    "text": "little less bling-bling",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 816,
+    "text": "whiney",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 817,
+    "text": "crude and unrelentingly exploitative",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 818,
+    "text": ", sometimes beautiful adaptation",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 819,
+    "text": "necessary and timely",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 820,
+    "text": "teddy bears ' picnic ranks",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 821,
+    "text": "worshipful",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 822,
+    "text": "exploitative for the art houses and too cynical",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 823,
+    "text": "volletta wallace 's maternal fury",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 824,
+    "text": "worth seeing at least once",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 825,
+    "text": "remains surprisingly idealistic",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 826,
+    "text": "we hate ( madonna ) within the film 's first five minutes ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 827,
+    "text": "scorsese 's mean streets redone by someone who ignored it in favor of old ` juvenile delinquent ' paperbacks with titles like leather warriors and switchblade sexpot",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 828,
+    "text": "to give blade fans another look at wesley snipes ' iconic hero doing battle with dozens of bad guys -- at once",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 829,
+    "text": "are ...",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 830,
+    "text": "great scares and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 831,
+    "text": "that they 're stuck with a script that prevents them from firing on all cylinders",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 832,
+    "text": "that tears welled up in my eyes both times",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 833,
+    "text": "to say about the ways in which extravagant chance can distort our perspective and throw us off the path of good sense",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 834,
+    "text": "the movie is almost completely lacking in suspense , surprise and consistent emotional conviction .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 835,
+    "text": "claims to sort the bad guys from the good , which is its essential problem .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 836,
+    "text": "friendship , love , and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 837,
+    "text": "visually breathtaking",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 838,
+    "text": "take nothing seriously and enjoy the ride",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 839,
+    "text": "two not very absorbing characters are engaged in a romance",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 840,
+    "text": "little more than preliminary notes for a science-fiction horror film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 841,
+    "text": "make a pretty good team",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 842,
+    "text": "fails in making this character understandable , in getting under her skin , in exploring motivation ... well before the end",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 843,
+    "text": "lives up to the stories and faces and music of the men who are its subject .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 844,
+    "text": "'s at once laughable and compulsively watchable ,",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 845,
+    "text": "it feels more like the pilot episode of a tv series than a feature film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 846,
+    "text": "to change hackneyed concepts when it comes to dreaming up romantic comedies",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 847,
+    "text": "moving story",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 848,
+    "text": "useless actioners",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 849,
+    "text": "it deserves to be seen everywhere .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 850,
+    "text": "the guy-in-a-dress genre",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 851,
+    "text": "love this movie",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 852,
+    "text": "a mix of gritty realism , crisp storytelling and radiant compassion that effortlessly draws you in",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 853,
+    "text": "stiff or just plain bad",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 854,
+    "text": "the filmmaking clumsy and rushed",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 855,
+    "text": "is an exercise in chilling style , and twohy films the sub , inside and out , with an eye on preserving a sense of mystery .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 856,
+    "text": "slow and ponderous , but rohmer 's drama builds to an intense indoor drama about compassion , sacrifice , and christian love in the face of political corruption .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 857,
+    "text": "a dull , inconsistent , dishonest female bonding picture .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 858,
+    "text": "to make such a worthless film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 859,
+    "text": "buy is an accomplished actress , and",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 860,
+    "text": "live-action cartoon",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 861,
+    "text": "the picture is so lovely toward the end",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 862,
+    "text": "bewilderingly brilliant and entertaining",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 863,
+    "text": "an effective portrait",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 864,
+    "text": "grade-school audience",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 865,
+    "text": "strangely funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 866,
+    "text": "just a simple fable done in an artless sytle ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 867,
+    "text": "by taking your expectations and twisting them just a bit",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 868,
+    "text": "like done-to-death material",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 869,
+    "text": "is as blasphemous and nonsensical as a luis buñuel film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 870,
+    "text": "to be a compelling",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 871,
+    "text": "has n't escaped the rut dug by the last one",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 872,
+    "text": "we never truly come to care about the main characters and whether or not they 'll wind up together , and michele 's spiritual quest is neither amusing nor dramatic enough to sustain interest",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 873,
+    "text": "demonstrates a vivid imagination and an impressive style",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 874,
+    "text": "amazing",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 875,
+    "text": "wall",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 876,
+    "text": "chatty fish",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 877,
+    "text": "'s no point in extracting the bare bones of byatt 's plot for purposes of bland hollywood romance",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 878,
+    "text": "unacceptable",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 879,
+    "text": "macdowell ... gives give a solid , anguished performance that eclipses nearly everything else she 's ever done .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 880,
+    "text": "thriller `` new best friend ''",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 881,
+    "text": "caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 882,
+    "text": "an excuse",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 883,
+    "text": "when you 're a struggling nobody",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 884,
+    "text": "just another situation romance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 885,
+    "text": "some movies suck you in despite their flaws ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 886,
+    "text": "crafted but ultimately hollow mockumentary",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 887,
+    "text": "is easily",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 888,
+    "text": "with a large cast representing a broad cross-section , tavernier 's film bounds along with the rat-a-tat energy of `` his girl friday , '' maintaining a light touch while tackling serious themes .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 889,
+    "text": "the adventures that happen along the way seem repetitive and designed to fill time , providing no real sense of suspense",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 890,
+    "text": "a valiant attempt to tell a story about the vietnam war before the pathology set in",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 891,
+    "text": "because it was particularly funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 892,
+    "text": "an inspiring tale of survival wrapped in the heart-pounding suspense of a stylish psychological thriller",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 893,
+    "text": ", kissing jessica stein injects freshness and spirit into the romantic comedy genre , which has been held hostage by generic scripts that seek to remake sleepless in seattle again and again .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 894,
+    "text": "permeates all its aspects -- from the tv movie-esque , affected child acting to the dullest irish pub scenes ever filmed",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 895,
+    "text": "spousal abuse",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 896,
+    "text": "is leguizamo 's best movie work so far , a subtle and richly internalized performance",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 897,
+    "text": "'s actually watchable",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 898,
+    "text": "the triumph",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 899,
+    "text": "worldly-wise and very funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 900,
+    "text": "both a beautifully made nature film and a tribute to a woman whose passion for this region and its inhabitants still shines in her quiet blue eyes .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 901,
+    "text": "of the road , where the thematic ironies are too obvious and the sexual politics too smug",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 902,
+    "text": "are clinically depressed and have abandoned their slim hopes and dreams",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 903,
+    "text": "toback 's deranged immediacy makes it seem fresh again .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 904,
+    "text": "many can aspire but none can equal",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 905,
+    "text": "watching it leaves you giddy",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 906,
+    "text": "soulless techno-tripe",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 907,
+    "text": "be the cat 's meow",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 908,
+    "text": "dated and unfunny",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 909,
+    "text": "this too-long , spoofy update",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 910,
+    "text": "irwin is so earnest that it 's hard to resist his pleas to spare wildlife and respect their environs .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 911,
+    "text": "i thought i heard a mysterious voice , and felt myself powerfully drawn toward the light -- the light of the exit sign .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 912,
+    "text": "on the young woman 's infirmity and her naive dreams",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 913,
+    "text": "to be liberating",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 914,
+    "text": "a teenage boy out there somewhere who 's dying for this kind of entertainment",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 915,
+    "text": ", pinocchio never quite achieves the feel of a fanciful motion picture .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 916,
+    "text": "a sincerely crafted picture",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 917,
+    "text": "students that deals with first love sweetly but also seriously .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 918,
+    "text": "be probing why a guy with his talent ended up in a movie this bad",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 919,
+    "text": "turmoil",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 920,
+    "text": "not scarier",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 921,
+    "text": "found myself strangely moved by even the corniest and most hackneyed contrivances .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 922,
+    "text": "this ludicrous film",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 923,
+    "text": "the magic that made it all work",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 924,
+    "text": "modern art",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 925,
+    "text": ", unassuming , subordinate",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 926,
+    "text": "so horrendously confusing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 927,
+    "text": "not only does the thoroughly formulaic film represent totally exemplify middle-of-the-road mainstream , it also represents glossy hollywood at its laziest .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 928,
+    "text": "present an unflinching look",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 929,
+    "text": "delivers roughly equal amounts of beautiful movement and inside information .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 930,
+    "text": "kitschy goodwill",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 931,
+    "text": "this frozen tundra soap opera",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 932,
+    "text": "fails to fulfill its own ambitious goals",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 933,
+    "text": "achieving some honest insight into relationships that most high-concept films candy-coat with pat storylines , precious circumstances and beautiful stars",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 934,
+    "text": "cruel story",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 935,
+    "text": "is a just a waste",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 936,
+    "text": "that the german film industry can not make a delightful comedy centering on food",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 937,
+    "text": "uncompromising film",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 938,
+    "text": "cold-hearted",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 939,
+    "text": "acquires an undeniable entertainment value as the slight , pale mr. broomfield continues to force himself on people and into situations that would make lesser men run for cover",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 940,
+    "text": "parents beware ; this is downright movie penance",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 941,
+    "text": "to keep you at the edge of your seat with its shape-shifting perils , political intrigue and brushes with calamity",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 942,
+    "text": "includes battlefield earth and showgirls",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 943,
+    "text": "oodles of charm",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 944,
+    "text": "as pedestrian as they come .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 945,
+    "text": "this director 's cut -- which adds 51 minutes -- takes a great film and turns it into a mundane soap opera .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 946,
+    "text": "essentially ruined -- or , rather ,",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 947,
+    "text": "ditsy",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 948,
+    "text": "it quickly enters the pantheon of wreckage that includes battlefield earth and showgirls",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 949,
+    "text": "a pale imitation",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 950,
+    "text": "gleefully",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 951,
+    "text": "( t ) his slop",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 952,
+    "text": "focusing on eccentricity but failing , ultimately , to make something bigger out of its scrapbook of oddballs",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 953,
+    "text": "anybody who enjoys quirky , fun , popcorn movies with a touch of silliness and a little bloodshed .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 954,
+    "text": "in narcissism and self-congratulation disguised as a tribute",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 955,
+    "text": "mind-numbing indifference",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 956,
+    "text": "filming the teeming life on the reefs",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 957,
+    "text": "recite some of this laughable dialogue",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 958,
+    "text": "scene the impressively discreet filmmakers may have expected to record with their mini dv",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 959,
+    "text": "a quaint , romanticized rendering",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 960,
+    "text": "pokes , provokes , takes expressionistic license",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 961,
+    "text": "will likely set the cause of woman warriors back decades",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 962,
+    "text": "it 's definitely not made for kids or their parents , for that matter , and i think even fans of sandler 's comic taste may find it uninteresting",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 963,
+    "text": "at an idea that should 've been so much more even if it was only made for teenage boys and wrestling fans",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 964,
+    "text": "far too clever by half , howard 's film is really a series of strung-together moments , with all the spaces in between filled with fantasies , daydreams , memories and one fantastic visual trope after another .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 965,
+    "text": "sounds like another clever if pointless excursion into the abyss",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 966,
+    "text": "its true-to-life characters , its sensitive acting , its unadorned view of rural life and the subtle direction of first-timer hilary birmingham",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 967,
+    "text": "breathes extraordinary life into the private existence of the inuit people",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 968,
+    "text": "another wholly unnecessary addition to the growing , moldering pile of , well , extreme stunt",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 969,
+    "text": "philosophers , not filmmakers",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 970,
+    "text": "careless and unfocused",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 971,
+    "text": "unfortunately also",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 972,
+    "text": "in memory",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 973,
+    "text": "so boring that even its target audience talked all the way through it .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 974,
+    "text": "should be commended for illustrating the merits of fighting hard for something that really matters .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 975,
+    "text": "this is a superior horror flick .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 976,
+    "text": "a mesmerizing cinematic poem from the first frame to the last .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 977,
+    "text": "remove spider-man the movie from its red herring surroundings and it 's apparent that this is one summer film that satisfies .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 978,
+    "text": "nothing can detract from the affection of that moral favorite : friends will be friends through thick and thin",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 979,
+    "text": "mention `` solaris '' five years from now and i 'm sure those who saw it will have an opinion to share .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 980,
+    "text": "pained",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 981,
+    "text": "the dialogue and drama often food-spittingly funny",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 982,
+    "text": "lend some dignity to a dumb story",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 983,
+    "text": "a burst of color , music , and dance that only the most practiced curmudgeon could fail to crack a smile at .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 984,
+    "text": "does seem pretty unbelievable at times",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 985,
+    "text": "if it had been only half-an-hour long or a tv special , the humor would have been fast and furious -- at ninety minutes , it drags",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 986,
+    "text": "slice of comedic bliss",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 987,
+    "text": "motivated by nothing",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 988,
+    "text": "clear-eyed chronicle",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 989,
+    "text": "our culture is headed down the toilet with the ferocity of a frozen burrito after an all-night tequila bender -- and",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 990,
+    "text": "show-stoppingly hilarious , but scathingly witty",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 991,
+    "text": "make gangster no. 1 a worthwhile moviegoing experience .",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 992,
+    "text": "( lee ) treats his audience the same way that jim brown treats his women -- as dumb , credulous , unassuming , subordinate subjects .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 993,
+    "text": "have the best of both worlds",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 994,
+    "text": "does not make for much of a movie .",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 995,
+    "text": "that ca n't get sufficient distance from leroy 's",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 996,
+    "text": "anyone who has ever suspected hollywood of being overrun by corrupt and hedonistic weasels",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 997,
+    "text": "it does n't give a damn",
+    "label": "negative",
+    "score": -0.99
+  },
+  {
+    "id": 998,
+    "text": "bloody beauty as vivid",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 999,
+    "text": "(",
+    "label": "positive",
+    "score": 0.99
+  },
+  {
+    "id": 1000,
+    "text": "is impressive for the sights and sounds of the wondrous beats the world has to offer",
+    "label": "positive",
+    "score": 0.99
+  }
+]

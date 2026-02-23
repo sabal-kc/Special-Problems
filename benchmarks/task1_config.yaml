@@ -15,15 +15,15 @@ client:
 traditional:
   # endpoint: http://REPLACE_WITH_EC2_HOST:8000/v1/sentiment
   # endpoint: http://127.0.0.1:8000/v1/sentiment
-  endpoint: http://54.172.131.162:8000/v1/sentiment
+  endpoint: http://3.80.28.168:8000/v1/sentiment
 
 sequential:
-  batch_sizes: [1, 5, 50]
+  batch_sizes: [1, 5, 50, 500, 5000]
   runs_per_batch: 3
 
 concurrent:
   batch_size: 5
-  concurrency_levels: [1, 2, 4, 8, 16, 32, 64, 128]
+  concurrency_levels: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
   duration_seconds: 30
 
 gemini:
