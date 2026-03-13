@@ -104,6 +104,7 @@ ExecStart=${VENV_DIR}/bin/python ${SERVICE_FILE} --host 0.0.0.0 --port ${PORT}
 Restart=always
 RestartSec=3
 Environment=HOME=${HOME}
+Environment=OLLAMA_MODEL=${OLLAMA_MODEL}
 
 [Install]
 WantedBy=multi-user.target

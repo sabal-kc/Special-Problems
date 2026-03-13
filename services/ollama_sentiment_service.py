@@ -27,6 +27,7 @@ import argparse
 import csv
 import io
 import json
+import os
 import time
 import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -47,7 +48,7 @@ def _debug(msg: str, *args: Any) -> None:
 # MODEL_NAME = "llama3.2:1b"
 # MODEL_NAME = "llama3.2:1b-instruct-q5_K_M"
 # MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
-MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
+MODEL_NAME = os.getenv("OLLAMA_MODEL", "llama3.2:3b-instruct-q3_K_S")
 OLLAMA_TIMEOUT_SEC = 480  # 8 minutes for long inference
 
 SYSTEM_PROMPT = """You are a sentiment analysis expert. These are movie review sentences. Classify sentiment for each CSV row. Output ONLY a JSON object.

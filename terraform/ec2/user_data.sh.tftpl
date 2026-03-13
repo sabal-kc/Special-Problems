@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+exec > >(tee -a /var/log/sentiment-bootstrap.log | logger -t sentiment-bootstrap -s 2>/dev/console) 2>&1
+
+echo "Starting ${service_type} sentiment service bootstrap"
+echo "Repo: ${repo_url}"
+echo "Ref: ${repo_ref}"
+echo "Port: ${service_port}"
+
+dnf install -y git
+
+if [[ -d "${repo_dir}/.git" ]]; then
+  echo "Repo already exists. Updating it."
+  cd "${repo_dir}"
+  sudo -u ec2-user git fetch --all --tags
+else
+  echo "Cloning repo into ${repo_dir}"
+  rm -rf "${repo_dir}"
+  sudo -u ec2-user git clone "${repo_url}" "${repo_dir}"
+  cd "${repo_dir}"
+  sudo -u ec2-user git fetch --all --tags
+fi
+
+sudo -u ec2-user git checkout "${repo_ref}"
+
+echo "Running setup command:"
+echo "${setup_command}"
+sudo -u ec2-user bash -lc "cd '${repo_dir}' && ${setup_command}"
+
+echo "Waiting for service health check"
+for i in {1..60}; do
+  if curl -fsS "http://127.0.0.1:${service_port}/health"; then
+    echo
+    echo "${service_name} is healthy"
+    exit 0
+  fi
+  sleep 5
+done
+
+echo "${service_name} did not become healthy in time"
+systemctl --no-pager --full status "${service_name}" || true
+exit 1

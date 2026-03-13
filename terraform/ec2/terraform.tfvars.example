@@ -1,0 +1,28 @@
+# Copy this file to terraform.tfvars, then edit values for your run.
+
+# Common values from the report:
+# - traditional: t2.nano, t2.micro
+# - ollama: c7a.large, c7a.xlarge, c7a.2xlarge
+# The report notes that c7a.medium did not have enough memory for the 3B model.
+
+service_type  = "traditional"
+instance_type = "t2.nano"
+
+# If the repo is public, HTTPS is easiest.
+# If the repo is private, EC2 needs access to clone it.
+repo_url = "https://github.com/<owner>/<repo>.git"
+repo_ref = "master"
+
+# Optional, but useful for SSH debugging.
+key_name             = ""
+ssh_private_key_path = ""
+
+# Leave blank to auto-detect your current public IP and use YOUR_IP/32.
+# You can also set a CIDR manually, such as "203.0.113.10/32".
+allowed_app_cidr = ""
+allowed_ssh_cidr = ""
+
+service_port = 8000
+
+# Used only when service_type = "ollama".
+ollama_model = "llama3.2:3b-instruct-q3_K_S"

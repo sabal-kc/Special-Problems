@@ -8,3 +8,8 @@ __pycache__/
 .env.development.local
 .env.test.local
 .env.production.local
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example

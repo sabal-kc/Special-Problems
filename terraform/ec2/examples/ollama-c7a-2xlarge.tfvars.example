@@ -1,0 +1,14 @@
+service_type  = "ollama"
+instance_type = "c7a.2xlarge"
+
+repo_url = "https://github.com/<owner>/<repo>.git"
+repo_ref = "master"
+
+key_name             = ""
+ssh_private_key_path = ""
+
+allowed_app_cidr = ""
+allowed_ssh_cidr = ""
+
+service_port  = 8000
+ollama_model  = "llama3.2:3b-instruct-q3_K_S"
