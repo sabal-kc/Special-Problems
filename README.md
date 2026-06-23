@@ -1,12 +1,16 @@
 # NLP Deployment Benchmarks
 
-This repository compares different ways to run sentiment analysis:
+This repository started as a comparison of traditional NLP methods and LLM-based approaches across several NLP tasks:
 
-- a traditional NLP baseline using NLTK VADER
-- a self-hosted LLM service using Ollama
-- external LLM results used for comparison
+- sentiment analysis
+- named entity recognition
+- part-of-speech tagging
+- topic classification
+- language identification
 
-The main focus is benchmarking latency, throughput, cost, and output quality across local code, EC2-hosted services, and LLM-based approaches.
+The deployment and cost benchmarking portion focuses on sentiment analysis. For that task, the project compares a traditional NLTK VADER service, a self-hosted Ollama/Llama service, and external LLM results.
+
+The main measurements are output quality, latency, throughput, and cost across local baselines, EC2-hosted services, and LLM-based approaches.
 
 ## Project Structure
 
@@ -48,10 +52,16 @@ task_overview.md
 ## Basic Flow
 
 ```text
-1. Prepare benchmark input data.
-2. Run or deploy a sentiment service.
-3. Run benchmark scripts from the local machine.
-4. Save and compare the results.
+1. Build task datasets and baseline outputs.
+2. Compare traditional NLP results with LLM outputs.
+3. Deploy a sentiment service for EC2 benchmarking.
+4. Run latency and throughput benchmarks locally.
+5. Save and compare the results.
 ```
 
 For EC2-based runs, use the Terraform setup under `terraform/ec2/`.
+
+## Results
+
+- [Comparison of NLP Tasks - Traditional vs LLMs.pdf](<Comparison of NLP Tasks - Traditional vs LLMs.pdf>)
+- [Comparison of NLP Tasks - Traditional vs Self Hosted vs LLMs.pdf](<Comparison of NLP Tasks - Traditional vs Self Hosted vs LLMs.pdf>)
