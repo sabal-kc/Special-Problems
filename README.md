@@ -1,6 +1,6 @@
 # NLP Deployment Benchmarks
 
-This repository started as a comparison of traditional NLP methods and LLM-based approaches across several NLP tasks:
+This repository compares traditional NLP methods and LLM-based approaches across several NLP tasks:
 
 - sentiment analysis
 - named entity recognition
@@ -8,7 +8,7 @@ This repository started as a comparison of traditional NLP methods and LLM-based
 - topic classification
 - language identification
 
-The deployment and cost benchmarking portion focuses on sentiment analysis. For that task, the project compares a traditional NLTK VADER service, a self-hosted Ollama/Llama service, and external LLM results.
+The deployment and cost benchmarking portion focuses on sentiment analysis, comparing a traditional NLTK VADER service, a self-hosted Ollama/Llama service, and external LLM results.
 
 The main measurements are output quality, latency, throughput, and cost across local baselines, EC2-hosted services, and LLM-based approaches.
 
@@ -43,7 +43,7 @@ custom_datasets.py
   Dataset loading and sampling helpers.
 
 traditional_nlp.py
-  Traditional NLP baseline runner for the broader task comparison.
+  Traditional NLP baseline runner for the task comparison.
 
 task_overview.md
   Notes on the benchmark tasks and datasets.

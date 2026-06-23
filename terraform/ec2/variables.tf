@@ -27,6 +27,12 @@ variable "instance_type" {
   default     = "t2.nano"
 }
 
+variable "availability_zone" {
+  description = "Optional availability zone override. Leave blank to choose a compatible default subnet automatically."
+  type        = string
+  default     = ""
+}
+
 variable "repo_url" {
   description = "Git URL that EC2 can clone. HTTPS is easiest for public repos."
   type        = string

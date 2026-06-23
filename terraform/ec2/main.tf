@@ -25,6 +25,7 @@ locals {
   current_public_ip_cidr = "${trimspace(data.http.current_public_ip.response_body)}/32"
   app_cidr               = var.allowed_app_cidr == "" ? local.current_public_ip_cidr : var.allowed_app_cidr
   ssh_cidr               = var.allowed_ssh_cidr == "" ? local.current_public_ip_cidr : var.allowed_ssh_cidr
+  subnet_id              = sort(data.aws_subnets.compatible.ids)[0]
 
   setup_command = var.service_type == "ollama" ? (
     "bash services/setup_ec2_ollama_service.sh --repo-dir '${local.repo_dir}' --port ${var.service_port} --service-user ec2-user --model '${var.ollama_model}'"
@@ -41,11 +42,33 @@ data "aws_vpc" "default" {
   default = true
 }
 
-data "aws_subnets" "default" {
+data "aws_ec2_instance_type_offerings" "compatible" {
+  location_type = "availability-zone"
+
+  filter {
+    name   = "instance-type"
+    values = [var.instance_type]
+  }
+}
+
+data "aws_subnets" "compatible" {
   filter {
     name   = "vpc-id"
     values = [data.aws_vpc.default.id]
   }
+
+  filter {
+    name = "availability-zone"
+    values = var.availability_zone == "" ? (
+      data.aws_ec2_instance_type_offerings.compatible.locations
+      ) : (
+      [var.availability_zone]
+    )
+  }
+}
+
+data "aws_subnet" "selected" {
+  id = local.subnet_id
 }
 
 data "aws_ami" "amazon_linux_2023" {
@@ -106,7 +129,7 @@ resource "aws_security_group" "sentiment_service" {
 resource "aws_instance" "sentiment_service" {
   ami                         = data.aws_ami.amazon_linux_2023.id
   instance_type               = var.instance_type
-  subnet_id                   = sort(data.aws_subnets.default.ids)[0]
+  subnet_id                   = local.subnet_id
   associate_public_ip_address = true
   key_name                    = var.key_name == "" ? null : var.key_name
   vpc_security_group_ids      = [aws_security_group.sentiment_service.id]

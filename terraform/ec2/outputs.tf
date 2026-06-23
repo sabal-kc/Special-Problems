@@ -23,6 +23,16 @@ output "service_name" {
   value       = local.service_name
 }
 
+output "availability_zone" {
+  description = "Availability zone selected for the EC2 instance."
+  value       = data.aws_subnet.selected.availability_zone
+}
+
+output "subnet_id" {
+  description = "Subnet selected for the EC2 instance."
+  value       = local.subnet_id
+}
+
 output "allowed_app_cidr" {
   description = "CIDR allowed to call the service port."
   value       = local.app_cidr
